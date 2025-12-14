@@ -18,8 +18,6 @@ package blind75;
  * Follow up: Can you solve it using O(1) (i.e. constant) memory?
  */
 
-import samples.Display;
-
 /**
 * Definition for singly-linked list.
 * class ListNode {
@@ -37,90 +35,50 @@ public class LinkedListCycle {
         System.out.println("=".repeat(50));
 
         // Test case 1: Cycle at position 1
-        Display.printTestCase(1);
+        LinkedListUtils.printTestCase(1, "Cycle at position 1");
         ListNode head = new ListNode(3);
         head.next = new ListNode(2);
         head.next.next = new ListNode(0);
         head.next.next.next = new ListNode(-4);
         head.next.next.next.next = head.next; // Create a cycle
-        printLinkedList(head, 1);
+        LinkedListUtils.printLinkedListWithCycle(head, 1);
         System.out.println("Result: " + hasCycle(head));
-        System.out.println("Expected: true\n");
+        System.out.println("Expected: true");
 
         // Test case 2: No cycle
-        Display.printTestCase(2);
+        LinkedListUtils.printTestCase(2, "No cycle");
         ListNode head2 = new ListNode(1);
         head2.next = new ListNode(2);
-        printLinkedList(head2, -1);
+        LinkedListUtils.printLinkedListWithCycle(head2, -1);
         System.out.println("Result: " + hasCycle(head2));
-        System.out.println("Expected: false\n");
+        System.out.println("Expected: false");
 
         // Test case 3: Single node, no cycle
-        Display.printTestCase(3);
+        LinkedListUtils.printTestCase(3, "Single node, no cycle");
         ListNode head3 = new ListNode(1);
-        printLinkedList(head3, -1);
+        LinkedListUtils.printLinkedListWithCycle(head3, -1);
         System.out.println("Result: " + hasCycle(head3));
-        System.out.println("Expected: false\n");
+        System.out.println("Expected: false");
 
         // Test case 4: Single node with cycle to itself
-        Display.printTestCase(4);
+        LinkedListUtils.printTestCase(4, "Single node with self-loop");
         ListNode head4 = new ListNode(-1);
         head4.next = head4; // Create a cycle
-        printLinkedList(head4, 0);
+        LinkedListUtils.printLinkedListWithCycle(head4, 0);
         System.out.println("Result: " + hasCycle(head4));
-        System.out.println("Expected: true\n");
+        System.out.println("Expected: true");
 
         // Test case 5: Empty list
-        Display.printTestCase(5);
+        LinkedListUtils.printTestCase(5, "Empty list");
         ListNode head5 = null;
-        printLinkedList(head5, -1);
+        LinkedListUtils.printLinkedListWithCycle(head5, -1);
         System.out.println("Result: " + hasCycle(head5));
-        System.out.println("Expected: false\n");
+        System.out.println("Expected: false");
 
-        System.out.println("=".repeat(50));
+        System.out.println("\n" + "=".repeat(50));
     }
 
-    /**
-     * Prints the linked list structure with cycle information.
-     * Uses Floyd's cycle detection to identify if a cycle exists and where it connects.
-     *
-     * @param head the head of the linked list
-     * @param pos the position where cycle connects (-1 if no cycle)
-     */
-    public static void printLinkedList(ListNode head, int pos) {
-        if (head == null) {
-            System.out.println("List: []");
-            System.out.println("No cycle (pos = -1)");
-            return;
-        }
 
-        // Print list values
-        System.out.print("List: [");
-        ListNode current = head;
-        int count = 0;
-        int maxNodes = 10; // Limit printing to avoid infinite loop in cyclic lists
-
-        while (current != null && count < maxNodes) {
-            System.out.print(current.val);
-            if (current.next != null && count < maxNodes - 1) {
-                System.out.print(" -> ");
-            }
-            current = current.next;
-            count++;
-        }
-
-        if (count >= maxNodes && current != null) {
-            System.out.print(" -> ...");
-        }
-        System.out.println("]");
-
-        // Print cycle information
-        if (pos == -1) {
-            System.out.println("No cycle (pos = -1)");
-        } else {
-            System.out.println("Cycle: tail connects to node at index " + pos);
-        }
-    }
 
     /**
      * Detects if a linked list has a cycle using Floyd's Cycle Detection Algorithm (Tortoise and Hare).
@@ -148,17 +106,5 @@ public class LinkedListCycle {
         }
 
         return false;
-    }
-}
-
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) {
-        val = x;
-        next = null;
-    }
-    public String toString() {
-        return Integer.toString(val);
     }
 }

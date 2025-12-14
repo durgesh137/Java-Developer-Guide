@@ -81,6 +81,18 @@ Given a string `s`, return the longest palindromic substring in `s`.
 
 ## Linked List Problems
 
+### [Problem 19: Remove Nth Node From End of List](docs/RemoveNthNodeFromEndOfList_README.md)
+**Difficulty:** Medium  
+**Topics:** Linked List, Two Pointers, Dummy Node
+
+Given the head of a linked list, remove the nth node from the end of the list and return its head.
+
+**Solution Approach:** Two-Pointer with Gap (n+1 steps ahead)  
+**Time Complexity:** O(n)  
+**Space Complexity:** O(1)
+
+---
+
 ### [Problem 141: Linked List Cycle](docs/LinkedListCycle_README.md)
 **Difficulty:** Easy  
 **Topics:** Linked List, Two Pointers, Fast & Slow Pointers
@@ -108,6 +120,7 @@ Given the head of a linked list, determine if the linked list has a cycle in it.
 - [x] Longest Substring Without Repeating Characters (3)
 - [x] Longest Palindromic Substring (5)
 - [x] 3Sum (15)
+- [x] Remove Nth Node From End of List (19)
 - [x] Longest Consecutive Sequence (128)
 - [x] Word Break (139)
 - [x] Linked List Cycle (141)

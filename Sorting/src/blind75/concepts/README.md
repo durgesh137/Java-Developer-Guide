@@ -31,6 +31,22 @@ This folder contains detailed explanations of fundamental programming concepts a
    - O(1) space complexity for cycle detection
    - **Used in:** Problem 141 (Linked List Cycle)
 
+4. **Two Pointers with Gap**
+   - Two pointers maintaining a fixed gap/distance
+   - Used for finding nth element from end in linked lists
+   - Enables single-pass solution without knowing length
+   - Combined with dummy node for edge case handling
+   - **Used in:** Problem 19 (Remove Nth Node From End of List)
+
+### Data Structure Techniques
+
+5. **Dummy Node Pattern**
+   - Creates a dummy/sentinel node before the head
+   - Simplifies edge cases (removing head, empty list)
+   - Provides consistent pointer manipulation
+   - Returns `dummy.next` as the new head
+   - **Used in:** Problem 19 (Remove Nth Node From End of List)
+
 ---
 
 ## Why Concepts Matter
