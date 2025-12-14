@@ -79,6 +79,20 @@ Given a string `s`, return the longest palindromic substring in `s`.
 
 ---
 
+## Linked List Problems
+
+### [Problem 141: Linked List Cycle](docs/LinkedListCycle_README.md)
+**Difficulty:** Easy  
+**Topics:** Linked List, Two Pointers, Fast & Slow Pointers
+
+Given the head of a linked list, determine if the linked list has a cycle in it.
+
+**Solution Approach:** Floyd's Cycle Detection (Tortoise and Hare)  
+**Time Complexity:** O(n)  
+**Space Complexity:** O(1)
+
+---
+
 ## Related Resources
 
 - [Core Concepts & Techniques](concepts/README.md) 🔍
@@ -96,6 +110,7 @@ Given a string `s`, return the longest palindromic substring in `s`.
 - [x] 3Sum (15)
 - [x] Longest Consecutive Sequence (128)
 - [x] Word Break (139)
+- [x] Linked List Cycle (141)
 - [x] Maximum Product Subarray (152)
 - [x] Missing Number (268)
 - [x] Palindromic Substrings (647)

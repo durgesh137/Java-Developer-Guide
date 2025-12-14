@@ -24,6 +24,13 @@ This folder contains detailed explanations of fundamental programming concepts a
    - Optimal for sorted arrays and finding pairs/triplets
    - **Used in:** Problem 15 (3Sum), Problem 1 (Two Sum variant)
 
+3. **Floyd's Cycle Detection (Fast & Slow Pointers)**
+   - Two pointers moving at different speeds
+   - Slow pointer moves 1 step, fast pointer moves 2 steps
+   - If they meet, a cycle exists
+   - O(1) space complexity for cycle detection
+   - **Used in:** Problem 141 (Linked List Cycle)
+
 ---
 
 ## Why Concepts Matter
