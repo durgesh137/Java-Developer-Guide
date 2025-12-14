@@ -240,7 +240,7 @@ import static blind75.LinkedListUtils.*;
 ## Related Resources
 
 - [Core Concepts & Techniques](concepts/README.md) 🔍
-- [Sorting Module README](../../../Sorting-README.md)
+- [LeetCodeProblems Module README](../../../LeetCodeProblems-README.md)
 - [Patterns Library](../patterns/PATTERNS_README.md)
 - [Problem Solutions](../problems/)
 

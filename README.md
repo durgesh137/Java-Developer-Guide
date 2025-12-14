@@ -31,11 +31,15 @@ DSA_Java/
 │       │   └── level2/          # Advanced array problems
 │       ├── samples/
 │       └── sorting/             # Sorting algorithms
-├── Sorting/                     # LeetCode Sorting Problems
-│   ├── Sorting-README.md        # Detailed module documentation
+├── LeetCodeProblems/            # LeetCode problem collections
+│   ├── LeetCodeProblems-README.md  # Detailed module documentation
 │   └── src/
 │       ├── problems/            # 94 LeetCode sorting problems
-│       ├── patterns/            # Reusable sorting patterns
+│       ├── patterns/            # Reusable patterns
+│       ├── blind75/             # Blind 75 curated problems
+│       │   ├── easy/            # Easy difficulty
+│       │   ├── medium/          # Medium difficulty
+│       │   └── hard/            # Hard difficulty
 │       └── samples/             # Helper utilities
 └── [Future Modules]
     ├── LinkedLists/
@@ -89,10 +93,10 @@ Comprehensive coverage of array manipulation, searching, and algorithmic problem
 
 ---
 
-### 3. **Sorting Module**
+### 3. **LeetCodeProblems Module**
 *Status: ✅ Active - 94 LeetCode Problems + Blind 75*
 
-Comprehensive collection of LeetCode sorting problems solved sequentially with pattern identification, plus curated Blind 75 interview problems.
+Comprehensive collection of LeetCode problems including sorting problems and curated Blind 75 interview problems, organized by difficulty.
 
 **Topics Covered:**
 - **LeetCode Problems**: All 94 easy-level sorting problems from LeetCode
@@ -111,8 +115,8 @@ Comprehensive collection of LeetCode sorting problems solved sequentially with p
 - Multiple approaches with complexity analysis
 - Dedicated patterns package for high-level problem-solving strategies
 
-📖 [View Sorting Module Documentation](./Sorting/Sorting-README.md)  
-🎯 [View Blind 75 Problems](./Sorting/src/blind75/BLIND75_README.md)
+📖 [View LeetCodeProblems Module Documentation](./LeetCodeProblems/LeetCodeProblems-README.md)  
+🎯 [View Blind 75 Problems](./LeetCodeProblems/src/blind75/BLIND75_README.md)
 
 ---
 
@@ -195,7 +199,7 @@ public class ProblemName {
 |--------|----------------|--------|------------------|
 | Basics | 20 | ✅ Active | Beginner |
 | Arrays | 11 | ✅ Active | Beginner → Medium |
-| Sorting (LeetCode) | 0 / 94 | ✅ Active | Easy |
+| LeetCodeProblems | 0 / 94 | ✅ Active | Easy |
 | Blind 75 | 13 / 75 | ✅ Active | Easy → Hard |
 | Linked Lists | 0 | 🔜 Planned | Beginner → Advanced |
 | Stacks & Queues | 0 | 🔜 Planned | Beginner → Medium |
@@ -214,12 +218,12 @@ public class ProblemName {
 2. Move to **Basics Module** - Strings section
 3. Practice **Arrays Module** - Basic problems
 4. Continue with **Arrays Module** - Sorting algorithms
-5. Attempt **Sorting Module** - LeetCode problems sequentially
+5. Attempt **LeetCodeProblems Module** - Sequential problems
 
 ### For Intermediate:
 1. Complete **Basics Module** level1 string problems
 2. Work through **Arrays Module** level2 problems
-3. Tackle **Sorting Module** LeetCode problems
+3. Tackle **LeetCodeProblems Module** - Blind 75 problems
 4. Move to **Linked Lists** and **Stacks/Queues** (when available)
 
 ### For Advanced:

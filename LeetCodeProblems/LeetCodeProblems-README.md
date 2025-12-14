@@ -1,7 +1,7 @@
-# Sorting Module - README
+# LeetCodeProblems Module - README
 
 ## Overview
-This module contains LeetCode sorting problems organized sequentially. Each problem is solved with detailed explanations, multiple approaches where applicable, and pattern identification to help understand common sorting techniques and problem-solving strategies.
+This module contains comprehensive LeetCode problem collections including sorting problems, Blind 75 curated interview problems, and pattern libraries. Problems are organized sequentially and by difficulty, with detailed explanations, multiple approaches, and pattern identification to help understand common problem-solving techniques.
 
 ## Module Structure
 
