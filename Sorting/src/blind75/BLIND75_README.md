@@ -117,6 +117,18 @@ Reorder a linked list from L₀→L₁→…→Ln to L₀→Ln→L₁→Ln-1→L
 
 ---
 
+### [Problem 206: Reverse Linked List](docs/ReverseLinkedList_README.md)
+**Difficulty:** Easy  
+**Topics:** Linked List, Two Pointers, Recursion
+
+Given the head of a singly linked list, reverse the list and return the reversed list.
+
+**Solution Approach:** Iterative (3 pointers) or Recursive  
+**Time Complexity:** O(n)  
+**Space Complexity:** O(1) iterative, O(n) recursive
+
+---
+
 ## Related Resources
 
 - [Core Concepts & Techniques](concepts/README.md) 🔍
@@ -138,6 +150,7 @@ Reorder a linked list from L₀→L₁→…→Ln to L₀→Ln→L₁→Ln-1→L
 - [x] Linked List Cycle (141)
 - [x] Reorder List (143)
 - [x] Maximum Product Subarray (152)
+- [x] Reverse Linked List (206)
 - [x] Missing Number (268)
 - [x] Palindromic Substrings (647)
 - [ ] Best Time to Buy and Sell Stock (121)

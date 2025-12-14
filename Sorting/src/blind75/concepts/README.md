@@ -48,11 +48,11 @@ This folder contains detailed explanations of fundamental programming concepts a
    - **Used in:** Problem 19 (Remove Nth Node From End of List)
 
 6. **Linked List Reversal**
-   - Iteratively reverse a linked list using three pointers
-   - Standard pattern: prev, curr, next
-   - O(n) time, O(1) space
-   - Foundation for many linked list problems
-   - **Used in:** Problem 143 (Reorder List - Step 2)
+   - **Iterative:** Three pointers (prev, curr, next) - O(1) space
+   - **Recursive:** Unwind stack and reverse links - O(n) space
+   - Standard pattern used in many linked list problems
+   - Foundation technique for list manipulation
+   - **Used in:** Problem 206 (Reverse Linked List), Problem 143 (Reorder List - Step 2)
 
 7. **Merge/Weave Pattern**
    - Alternately interleave nodes from two lists

@@ -193,16 +193,16 @@ public class ProblemName {
 | Basics | 20 | ✅ Active | Beginner |
 | Arrays | 11 | ✅ Active | Beginner → Medium |
 | Sorting (LeetCode) | 0 / 94 | ✅ Active | Easy |
-| Blind 75 | 12 / 75 | ✅ Active | Easy → Hard |
+| Blind 75 | 13 / 75 | ✅ Active | Easy → Hard |
 | Linked Lists | 0 | 🔜 Planned | Beginner → Advanced |
 | Stacks & Queues | 0 | 🔜 Planned | Beginner → Medium |
 | Trees | 0 | 🔜 Planned | Medium → Advanced |
 | Graphs | 0 | 🔜 Planned | Medium → Advanced |
 | Dynamic Programming | 0 | 🔜 Planned | Medium → Advanced |
 
-**Total Problems Solved: 43**  
+**Total Problems Solved: 44**  
 **LeetCode Problems: 0 / 94**  
-**Blind 75 Problems: 12 / 75** ⭐
+**Blind 75 Problems: 13 / 75** ⭐
 
 ## 🎓 Learning Path
 
