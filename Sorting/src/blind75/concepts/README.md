@@ -15,6 +15,15 @@ This folder contains detailed explanations of fundamental programming concepts a
    - O(1) lookup efficiency
    - **Used in:** Problem 3 (Longest Substring Without Repeating Characters)
 
+### Algorithmic Patterns
+
+2. **Two Pointer Technique**
+   - Using two pointers to traverse arrays efficiently
+   - Opposite direction pointers (start and end)
+   - Same direction pointers (slow and fast)
+   - Optimal for sorted arrays and finding pairs/triplets
+   - **Used in:** Problem 15 (3Sum), Problem 1 (Two Sum variant)
+
 ---
 
 ## Why Concepts Matter

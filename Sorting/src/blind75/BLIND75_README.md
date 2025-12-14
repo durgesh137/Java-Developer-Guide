@@ -29,6 +29,18 @@ Given an array of integers `nums` and an integer `target`, return indices of the
 
 ---
 
+### [Problem 15: 3Sum](docs/ThreeSum_README.md)
+**Difficulty:** Medium  
+**Topics:** Array, Two Pointers, Sorting
+
+Given an integer array `nums`, return all the triplets `[nums[i], nums[j], nums[k]]` such that they sum to zero. The solution set must not contain duplicate triplets.
+
+**Solution Approach:** Sort + Two Pointers  
+**Time Complexity:** O(n²)  
+**Space Complexity:** O(1)
+
+---
+
 ### [Problem 128: Longest Consecutive Sequence](docs/LongestConsecutiveSequence_README.md)
 **Difficulty:** Medium  
 **Topics:** Array, Hash Table, Union Find
@@ -81,6 +93,7 @@ Given a string `s`, return the longest palindromic substring in `s`.
 - [x] Two Sum (1)
 - [x] Longest Substring Without Repeating Characters (3)
 - [x] Longest Palindromic Substring (5)
+- [x] 3Sum (15)
 - [x] Longest Consecutive Sequence (128)
 - [x] Word Break (139)
 - [x] Maximum Product Subarray (152)
@@ -90,10 +103,8 @@ Given a string `s`, return the longest palindromic substring in `s`.
 - [ ] Contains Duplicate (217)
 - [ ] Product of Array Except Self (238)
 - [ ] Maximum Subarray (53)
-- [ ] Maximum Product Subarray (152)
 - [ ] Find Minimum in Rotated Sorted Array (153)
 - [ ] Search in Rotated Sorted Array (33)
-- [ ] 3Sum (15)
 - [ ] Container With Most Water (11)
 
 ---
