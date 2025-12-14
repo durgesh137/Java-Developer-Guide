@@ -105,6 +105,18 @@ Given the head of a linked list, determine if the linked list has a cycle in it.
 
 ---
 
+### [Problem 143: Reorder List](docs/ReorderList_README.md)
+**Difficulty:** Medium  
+**Topics:** Linked List, Two Pointers, Reversal
+
+Reorder a linked list from L₀→L₁→…→Ln to L₀→Ln→L₁→Ln-1→L₂→Ln-2→…
+
+**Solution Approach:** Find Middle + Reverse Second Half + Merge  
+**Time Complexity:** O(n)  
+**Space Complexity:** O(1)
+
+---
+
 ## Related Resources
 
 - [Core Concepts & Techniques](concepts/README.md) 🔍
@@ -124,6 +136,7 @@ Given the head of a linked list, determine if the linked list has a cycle in it.
 - [x] Longest Consecutive Sequence (128)
 - [x] Word Break (139)
 - [x] Linked List Cycle (141)
+- [x] Reorder List (143)
 - [x] Maximum Product Subarray (152)
 - [x] Missing Number (268)
 - [x] Palindromic Substrings (647)

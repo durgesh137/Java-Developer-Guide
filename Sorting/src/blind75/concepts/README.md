@@ -29,7 +29,7 @@ This folder contains detailed explanations of fundamental programming concepts a
    - Slow pointer moves 1 step, fast pointer moves 2 steps
    - If they meet, a cycle exists
    - O(1) space complexity for cycle detection
-   - **Used in:** Problem 141 (Linked List Cycle)
+   - **Used in:** Problem 141 (Linked List Cycle), Problem 143 (Reorder List - Step 1)
 
 4. **Two Pointers with Gap**
    - Two pointers maintaining a fixed gap/distance
