@@ -1,4 +1,4 @@
-package blind75;
+package blind75.medium;
 
 /**
  * 5. Longest Palindromic Substring

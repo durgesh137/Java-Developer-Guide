@@ -31,11 +31,15 @@ DSA_Java/
 │       │   └── level2/          # Advanced array problems
 │       ├── samples/
 │       └── sorting/             # Sorting algorithms
-├── Sorting/                     # LeetCode Sorting Problems
-│   ├── Sorting-README.md        # Detailed module documentation
+├── LeetCodeProblems/            # LeetCode problem collections
+│   ├── LeetCodeProblems-README.md  # Detailed module documentation
 │   └── src/
 │       ├── problems/            # 94 LeetCode sorting problems
-│       ├── patterns/            # Reusable sorting patterns
+│       ├── patterns/            # Reusable patterns
+│       ├── blind75/             # Blind 75 curated problems
+│       │   ├── easy/            # Easy difficulty
+│       │   ├── medium/          # Medium difficulty
+│       │   └── hard/            # Hard difficulty
 │       └── samples/             # Helper utilities
 └── [Future Modules]
     ├── LinkedLists/
@@ -89,27 +93,30 @@ Comprehensive coverage of array manipulation, searching, and algorithmic problem
 
 ---
 
-### 3. **Sorting Module**
+### 3. **LeetCodeProblems Module**
 *Status: ✅ Active - 94 LeetCode Problems + Blind 75*
 
-Comprehensive collection of LeetCode sorting problems solved sequentially with pattern identification, plus curated Blind 75 interview problems.
+Comprehensive collection of LeetCode problems including sorting problems and curated Blind 75 interview problems, organized by difficulty.
 
 **Topics Covered:**
 - **LeetCode Problems**: All 94 easy-level sorting problems from LeetCode
-- **Blind 75**: Curated collection of must-do interview problems with detailed algorithmic explanations
+- **Blind 75**: Curated collection organized by difficulty (easy/medium/hard)
+  - 4 Easy problems (Two Sum, Linked List Cycle, Reverse Linked List, Missing Number)
+  - 9 Medium problems (3Sum, Reorder List, Word Break, and more)
+  - Professional package structure for progressive learning
 - **Pattern Library**: Reusable sorting patterns and techniques extracted from solutions
 - **Problem-Solving Strategies**: Two-pointer, frequency counting, greedy, custom comparators
-- **Helper Utilities**: Testing and debugging tools
+- **Helper Utilities**: LinkedListUtils, testing and debugging tools
 
 **Key Features:**
 - Sequential problem solving (Problems 1-94)
-- Blind 75 problems with crisp algorithms and step-by-step walkthroughs
+- Blind 75 problems organized by difficulty with crisp algorithms
 - Pattern documentation for reusable techniques
 - Multiple approaches with complexity analysis
 - Dedicated patterns package for high-level problem-solving strategies
 
-📖 [View Sorting Module Documentation](./Sorting/Sorting-README.md)  
-🎯 [View Blind 75 Problems](./Sorting/src/blind75/BLIND75_README.md)
+📖 [View LeetCodeProblems Module Documentation](./LeetCodeProblems/LeetCodeProblems-README.md)  
+🎯 [View Blind 75 Problems](./LeetCodeProblems/src/blind75/BLIND75_README.md)
 
 ---
 
@@ -192,7 +199,7 @@ public class ProblemName {
 |--------|----------------|--------|------------------|
 | Basics | 20 | ✅ Active | Beginner |
 | Arrays | 11 | ✅ Active | Beginner → Medium |
-| Sorting (LeetCode) | 0 / 94 | ✅ Active | Easy |
+| LeetCodeProblems | 0 / 94 | ✅ Active | Easy |
 | Blind 75 | 13 / 75 | ✅ Active | Easy → Hard |
 | Linked Lists | 0 | 🔜 Planned | Beginner → Advanced |
 | Stacks & Queues | 0 | 🔜 Planned | Beginner → Medium |
@@ -211,12 +218,12 @@ public class ProblemName {
 2. Move to **Basics Module** - Strings section
 3. Practice **Arrays Module** - Basic problems
 4. Continue with **Arrays Module** - Sorting algorithms
-5. Attempt **Sorting Module** - LeetCode problems sequentially
+5. Attempt **LeetCodeProblems Module** - Sequential problems
 
 ### For Intermediate:
 1. Complete **Basics Module** level1 string problems
 2. Work through **Arrays Module** level2 problems
-3. Tackle **Sorting Module** LeetCode problems
+3. Tackle **LeetCodeProblems Module** - Blind 75 problems
 4. Move to **Linked Lists** and **Stacks/Queues** (when available)
 
 ### For Advanced:

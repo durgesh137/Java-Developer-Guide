@@ -1,5 +1,6 @@
-package blind75;
+package blind75.medium;
 
+import blind75.ListNode;
 import static blind75.LinkedListUtils.*;
 
 /**
