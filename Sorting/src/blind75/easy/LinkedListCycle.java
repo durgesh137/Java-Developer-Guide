@@ -1,4 +1,7 @@
-package blind75;
+package blind75.easy;
+
+import blind75.ListNode;
+import blind75.LinkedListUtils;
 
 /**
  * 141. Linked List Cycle

@@ -1,4 +1,4 @@
-package blind75;
+package blind75.medium;
 
 /**
  * 647. Palindromic Substrings

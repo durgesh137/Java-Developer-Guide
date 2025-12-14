@@ -96,14 +96,17 @@ Comprehensive collection of LeetCode sorting problems solved sequentially with p
 
 **Topics Covered:**
 - **LeetCode Problems**: All 94 easy-level sorting problems from LeetCode
-- **Blind 75**: Curated collection of must-do interview problems with detailed algorithmic explanations
+- **Blind 75**: Curated collection organized by difficulty (easy/medium/hard)
+  - 4 Easy problems (Two Sum, Linked List Cycle, Reverse Linked List, Missing Number)
+  - 9 Medium problems (3Sum, Reorder List, Word Break, and more)
+  - Professional package structure for progressive learning
 - **Pattern Library**: Reusable sorting patterns and techniques extracted from solutions
 - **Problem-Solving Strategies**: Two-pointer, frequency counting, greedy, custom comparators
-- **Helper Utilities**: Testing and debugging tools
+- **Helper Utilities**: LinkedListUtils, testing and debugging tools
 
 **Key Features:**
 - Sequential problem solving (Problems 1-94)
-- Blind 75 problems with crisp algorithms and step-by-step walkthroughs
+- Blind 75 problems organized by difficulty with crisp algorithms
 - Pattern documentation for reusable techniques
 - Multiple approaches with complexity analysis
 - Dedicated patterns package for high-level problem-solving strategies
