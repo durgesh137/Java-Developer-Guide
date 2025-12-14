@@ -29,6 +29,18 @@ Given an array of integers `nums` and an integer `target`, return indices of the
 
 ---
 
+### [Problem 15: 3Sum](docs/ThreeSum_README.md)
+**Difficulty:** Medium  
+**Topics:** Array, Two Pointers, Sorting
+
+Given an integer array `nums`, return all the triplets `[nums[i], nums[j], nums[k]]` such that they sum to zero. The solution set must not contain duplicate triplets.
+
+**Solution Approach:** Sort + Two Pointers  
+**Time Complexity:** O(n²)  
+**Space Complexity:** O(1)
+
+---
+
 ### [Problem 128: Longest Consecutive Sequence](docs/LongestConsecutiveSequence_README.md)
 **Difficulty:** Medium  
 **Topics:** Array, Hash Table, Union Find
@@ -67,6 +79,56 @@ Given a string `s`, return the longest palindromic substring in `s`.
 
 ---
 
+## Linked List Problems
+
+### [Problem 19: Remove Nth Node From End of List](docs/RemoveNthNodeFromEndOfList_README.md)
+**Difficulty:** Medium  
+**Topics:** Linked List, Two Pointers, Dummy Node
+
+Given the head of a linked list, remove the nth node from the end of the list and return its head.
+
+**Solution Approach:** Two-Pointer with Gap (n+1 steps ahead)  
+**Time Complexity:** O(n)  
+**Space Complexity:** O(1)
+
+---
+
+### [Problem 141: Linked List Cycle](docs/LinkedListCycle_README.md)
+**Difficulty:** Easy  
+**Topics:** Linked List, Two Pointers, Fast & Slow Pointers
+
+Given the head of a linked list, determine if the linked list has a cycle in it.
+
+**Solution Approach:** Floyd's Cycle Detection (Tortoise and Hare)  
+**Time Complexity:** O(n)  
+**Space Complexity:** O(1)
+
+---
+
+### [Problem 143: Reorder List](docs/ReorderList_README.md)
+**Difficulty:** Medium  
+**Topics:** Linked List, Two Pointers, Reversal
+
+Reorder a linked list from L₀→L₁→…→Ln to L₀→Ln→L₁→Ln-1→L₂→Ln-2→…
+
+**Solution Approach:** Find Middle + Reverse Second Half + Merge  
+**Time Complexity:** O(n)  
+**Space Complexity:** O(1)
+
+---
+
+### [Problem 206: Reverse Linked List](docs/ReverseLinkedList_README.md)
+**Difficulty:** Easy  
+**Topics:** Linked List, Two Pointers, Recursion
+
+Given the head of a singly linked list, reverse the list and return the reversed list.
+
+**Solution Approach:** Iterative (3 pointers) or Recursive  
+**Time Complexity:** O(n)  
+**Space Complexity:** O(1) iterative, O(n) recursive
+
+---
+
 ## Related Resources
 
 - [Core Concepts & Techniques](concepts/README.md) 🔍
@@ -81,19 +143,22 @@ Given a string `s`, return the longest palindromic substring in `s`.
 - [x] Two Sum (1)
 - [x] Longest Substring Without Repeating Characters (3)
 - [x] Longest Palindromic Substring (5)
+- [x] 3Sum (15)
+- [x] Remove Nth Node From End of List (19)
 - [x] Longest Consecutive Sequence (128)
 - [x] Word Break (139)
+- [x] Linked List Cycle (141)
+- [x] Reorder List (143)
 - [x] Maximum Product Subarray (152)
+- [x] Reverse Linked List (206)
 - [x] Missing Number (268)
 - [x] Palindromic Substrings (647)
 - [ ] Best Time to Buy and Sell Stock (121)
 - [ ] Contains Duplicate (217)
 - [ ] Product of Array Except Self (238)
 - [ ] Maximum Subarray (53)
-- [ ] Maximum Product Subarray (152)
 - [ ] Find Minimum in Rotated Sorted Array (153)
 - [ ] Search in Rotated Sorted Array (33)
-- [ ] 3Sum (15)
 - [ ] Container With Most Water (11)
 
 ---
