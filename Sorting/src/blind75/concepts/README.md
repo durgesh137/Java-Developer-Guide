@@ -47,6 +47,19 @@ This folder contains detailed explanations of fundamental programming concepts a
    - Returns `dummy.next` as the new head
    - **Used in:** Problem 19 (Remove Nth Node From End of List)
 
+6. **Linked List Reversal**
+   - Iteratively reverse a linked list using three pointers
+   - Standard pattern: prev, curr, next
+   - O(n) time, O(1) space
+   - Foundation for many linked list problems
+   - **Used in:** Problem 143 (Reorder List - Step 2)
+
+7. **Merge/Weave Pattern**
+   - Alternately interleave nodes from two lists
+   - Requires careful pointer manipulation
+   - Common in list rearrangement problems
+   - **Used in:** Problem 143 (Reorder List - Step 3)
+
 ---
 
 ## Why Concepts Matter
