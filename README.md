@@ -45,6 +45,34 @@ Java-Developer-Guide/
 │       │   ├── medium/          # Medium difficulty
 │       │   └── hard/            # Hard difficulty
 │       └── samples/             # Helper utilities
+├── SQL/                         # SQL Module
+│   ├── SQL50-README.md          # Detailed module documentation
+│   └── src/
+│       ├── problems/            # SQL solutions by difficulty
+│       │   ├── easy/            # Easy SQL problems
+│       │   ├── medium/          # Medium SQL problems
+│       │   └── hard/            # Hard SQL problems
+│       ├── schemas/             # Database schemas & test data
+│       └── docs/                # Problem documentation & concepts
+├── JavaCore/                    # Core Java Concepts ⭐ NEW
+│   ├── JavaCore-README.md       # Detailed module documentation
+│   ├── concepts/                # Theoretical explanations
+│   └── src/
+│       ├── oop/                 # OOP fundamentals
+│       │   ├── encapsulation/   # Data hiding & access control
+│       │   ├── inheritance/     # Code reusability & hierarchy
+│       │   ├── polymorphism/    # Runtime & compile-time
+│       │   └── abstraction/     # Abstract classes & interfaces
+│       ├── solid/               # SOLID principles
+│       ├── design-patterns/     # Gang of Four patterns
+│       │   ├── creational/      # Singleton, Factory, Builder
+│       │   ├── structural/      # Adapter, Decorator, Proxy
+│       │   └── behavioral/      # Strategy, Observer, Template
+│       ├── collections/         # Collections Framework
+│       ├── streams/             # Java 8+ Streams API
+│       ├── multithreading/      # Concurrency & Threading
+│       ├── generics/            # Generic programming
+│       └── exceptions/          # Exception handling
 └── [Future Modules]
     ├── LinkedLists/
     ├── Stacks/
@@ -54,7 +82,6 @@ Java-Developer-Guide/
     ├── DynamicProgramming/
     ├── SpringBoot/             # Spring Boot concepts & examples
     ├── Microservices/          # Microservices architecture
-    ├── Databases/              # SQL & NoSQL
     ├── Docker/                 # Containerization
     ├── Kubernetes/             # Container orchestration
     └── Cloud/                  # Cloud platforms (AWS, Azure, GCP)
@@ -161,7 +188,50 @@ Master SQL through LeetCode's curated **SQL 50** problems, covering all essentia
 
 ---
 
-### 5. **Future Modules** 
+### 5. **JavaCore Module** ⭐ NEW
+*Status: 🚀 Active - Structure Setup*
+
+Comprehensive coverage of **Core Java concepts** essential for technical interviews at top-tier companies. Focus on Object-Oriented Programming, SOLID principles, Design Patterns, Collections, Multithreading, and Java 8+ features.
+
+**Topics Covered:**
+- **OOP Fundamentals**: Encapsulation, Inheritance, Polymorphism, Abstraction
+- **SOLID Principles**: Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion
+- **Design Patterns**: 
+  - Creational (Singleton, Factory, Builder, Prototype)
+  - Structural (Adapter, Decorator, Proxy, Facade)
+  - Behavioral (Strategy, Observer, Template, Command)
+- **Collections Framework**: List, Set, Map implementations, HashMap internals, ConcurrentHashMap
+- **Java 8+ Features**: Lambda expressions, Streams API, Functional interfaces, Method references
+- **Multithreading**: Thread creation, Synchronization, ExecutorService, Concurrent utilities
+- **Generics**: Generic classes, Bounded types, Wildcards
+- **Exception Handling**: Try-catch, Custom exceptions, Best practices
+
+**Key Features:**
+- Structured learning path for freshers to senior developers
+- Real-world examples with practical applications
+- Interview-focused preparation roadmap
+- Progressive difficulty levels
+- Clean, well-documented code examples
+
+**Implementation Roadmap:**
+- **Phase 1** (Current): OOP Fundamentals
+- **Phase 2**: SOLID Principles
+- **Phase 3**: Design Patterns
+- **Phase 4**: Collections Framework
+- **Phase 5**: Multithreading & Concurrency
+- **Phase 6**: Java 8+ Features (Streams, Lambda)
+
+**Module Structure:**
+- **Concepts**: Theoretical explanations and documentation
+- **Code Examples**: Practical implementations for each topic
+- **Interview Questions**: Curated Q&A for interview preparation (planned)
+- **Best Practices**: Industry-standard coding patterns
+
+📖 [View JavaCore Module Documentation](./JavaCore/JavaCore-README.md)
+
+---
+
+### 6. **Future Modules** 
 *Status: 🔜 Planned*
 
 #### Coming Soon - DSA Modules:
@@ -254,35 +324,47 @@ public class ProblemName {
 | Arrays | 11 | ✅ Active | Beginner → Medium |
 | LeetCodeProblems | 0 / 94 | ✅ Active | Easy |
 | Blind 75 | 13 / 75 | ✅ Active | Easy → Hard |
+| SQL | 5 / 50 | ✅ Active | Easy → Hard |
+| JavaCore | 0 / 60+ | ✅ Active | Beginner → Advanced |
 | Linked Lists | 0 | 🔜 Planned | Beginner → Advanced |
 | Stacks & Queues | 0 | 🔜 Planned | Beginner → Medium |
 | Trees | 0 | 🔜 Planned | Medium → Advanced |
 | Graphs | 0 | 🔜 Planned | Medium → Advanced |
 | Dynamic Programming | 0 | 🔜 Planned | Medium → Advanced |
 
-**Total Problems Solved: 44**  
+**Total Problems Solved: 49**  
 **LeetCode Problems: 0 / 94**  
-**Blind 75 Problems: 13 / 75** ⭐
+**Blind 75 Problems: 13 / 75** ⭐  
+**SQL Problems: 5 / 50** (10%) ⭐  
+**JavaCore Topics: Structure Ready** ⭐ NEW
 
 ## 🎓 Learning Path
 
 ### For Beginners:
 1. Start with **Basics Module** - Numbers section
 2. Move to **Basics Module** - Strings section
-3. Practice **Arrays Module** - Basic problems
-4. Continue with **Arrays Module** - Sorting algorithms
-5. Attempt **LeetCodeProblems Module** - Sequential problems
+3. Begin **JavaCore Module** - OOP Fundamentals
+4. Practice **Arrays Module** - Basic problems
+5. Continue with **Arrays Module** - Sorting algorithms
+6. Practice **SQL Module** - Easy problems (1-5)
+7. Attempt **LeetCodeProblems Module** - Sequential problems
 
 ### For Intermediate:
 1. Complete **Basics Module** level1 string problems
-2. Work through **Arrays Module** level2 problems
-3. Tackle **LeetCodeProblems Module** - Blind 75 problems
-4. Move to **Linked Lists** and **Stacks/Queues** (when available)
+2. Master **JavaCore Module** - SOLID principles and Collections
+3. Work through **Arrays Module** level2 problems
+4. Practice **SQL Module** - Medium problems with JOINs
+5. Tackle **LeetCodeProblems Module** - Blind 75 problems
+6. Study **JavaCore Module** - Design Patterns
+7. Move to **Linked Lists** and **Stacks/Queues** (when available)
 
 ### For Advanced:
-1. Focus on **Trees** and **Graphs** modules
-2. Master **Dynamic Programming** patterns
-3. Solve **Backtracking** and **Greedy** problems
+1. Complete **JavaCore Module** - Multithreading and advanced topics
+2. Master **SQL Module** - Window functions and complex queries
+3. Focus on **Trees** and **Graphs** modules (when available)
+4. Master **Dynamic Programming** patterns
+5. Solve **Backtracking** and **Greedy** problems
+6. Apply **Design Patterns** from JavaCore in real projects
 
 ## 🤝 Contributing
 
@@ -351,6 +433,6 @@ Give a ⭐️ if this project helped you learn DSA!
 
 ---
 
-**Last Updated:** December 15, 2025  
-**Version:** 1.0.0
+**Last Updated:** December 16, 2025  
+**Version:** 1.1.0
 
