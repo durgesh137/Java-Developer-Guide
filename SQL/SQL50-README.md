@@ -35,7 +35,7 @@ SQL/
 
 | # | Problem | Topics | Status |
 |---|---------|--------|--------|
-| 1 | [1757] Recyclable and Low Fat Products | SELECT, WHERE | 🔜 |
+| 1 | [[1757] Recyclable and Low Fat Products](src/problems/easy/RecyclableAndLowFlat.sql) | SELECT, WHERE, AND → [Basic SQL Concepts](src/docs/BasicSQLConcepts.md) | ✅ |
 | 2 | [584] Find Customer Referee | SELECT, WHERE, NULL | 🔜 |
 | 3 | [595] Big Countries | SELECT, WHERE, OR | 🔜 |
 | 4 | [1148] Article Views I | SELECT, DISTINCT | 🔜 |
@@ -276,19 +276,27 @@ By completing SQL 50, you will:
 - ✅ Prepare for SQL technical interviews
 - ✅ Build foundation for Spring Data JPA and Hibernate
 
+## 📚 Concept Documentation
+
+Core SQL concepts are documented in reusable concept files:
+
+- **[Basic SQL Concepts](src/docs/BasicSQLConcepts.md)** - SELECT, WHERE, AND, OR, Comparison Operators
+- More concept files will be added as we solve more problems
+
 ## 📝 Notes
 
 - Solutions are written for **MySQL 8.0** syntax
 - PostgreSQL alternatives provided where syntax differs
 - Focus on understanding concepts, not just solving problems
 - Practice writing queries before looking at solutions
+- Concepts are documented in generic files and linked from problems
 
 ---
 
-**Module Status**: 🚀 Ready to start  
+**Module Status**: 🚀 In Progress  
 **Last Updated**: December 15, 2025  
 **Total Problems**: 50  
-**Completion**: 0/50 (0%)
+**Completion**: 1/50 (2%)
 
 ---
 
