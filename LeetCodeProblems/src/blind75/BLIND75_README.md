@@ -8,7 +8,7 @@ A curated collection of 75 must-do LeetCode problems for technical interview pre
 
 ```
 blind75/
-├── easy/           # Easy difficulty problems (4 solved)
+├── easy/           # Easy difficulty problems (5 solved)
 ├── medium/         # Medium difficulty problems (9 solved)
 ├── hard/           # Hard difficulty problems (0 solved)
 ├── docs/           # Problem documentation
@@ -57,6 +57,16 @@ Given the head of a singly linked list, reverse the list and return the reversed
 
 **Solution Approach:** Iterative (3 pointers) or Recursive  
 **Time Complexity:** O(n) | **Space Complexity:** O(1) iterative, O(n) recursive
+
+---
+
+### [Problem 21: Merge Two Sorted Lists](easy/MergeTwoSortedLists.java) | [Docs](docs/MergeTwoSortedLists_README.md)
+**Topics:** Linked List, Two Pointers, Dummy Node
+
+Given the heads of two sorted linked lists, merge them into one sorted list.
+
+**Solution Approach:** Iterative Two-Pointer with Dummy Node  
+**Time Complexity:** O(n + m) | **Space Complexity:** O(1)
 
 ---
 
@@ -173,17 +183,17 @@ Given a string `s`, return the number of palindromic substrings in it.
 ### By Difficulty
 | Difficulty | Solved | Total | Percentage |
 |-----------|--------|-------|------------|
-| Easy | 4 | ~15 | 27% |
+| Easy | 5 | ~15 | 33% |
 | Medium | 9 | ~50 | 18% |
 | Hard | 0 | ~10 | 0% |
-| **Total** | **13** | **75** | **17.3%** |
+| **Total** | **14** | **75** | **18.7%** |
 
 ### By Category
 | Category | Solved | Problems |
 |----------|--------|----------|
 | Arrays | 3 | Two Sum, 3Sum, Longest Consecutive Sequence |
 | Strings | 2 | Longest Substring, Palindromic Substring |
-| Linked Lists | 4 | Cycle, Reverse, Remove Nth, Reorder |
+| Linked Lists | 5 | Cycle, Reverse, Merge Two Sorted Lists, Remove Nth, Reorder |
 | Dynamic Programming | 4 | Word Break, Max Product, Palindromic Substrings, Missing Number |
 
 ---
@@ -199,6 +209,7 @@ Problems are organized by difficulty. Run them using the full package path:
 java blind75.easy.TwoSum
 java blind75.easy.LinkedListCycle
 java blind75.easy.ReverseLinkedList
+java blind75.easy.MergeTwoSortedLists
 java blind75.easy.MissingNumber
 
 # Medium problems

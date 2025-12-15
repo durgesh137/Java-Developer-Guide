@@ -101,7 +101,7 @@ Comprehensive collection of LeetCode problems including sorting problems and cur
 **Topics Covered:**
 - **LeetCode Problems**: All 94 easy-level sorting problems from LeetCode
 - **Blind 75**: Curated collection organized by difficulty (easy/medium/hard)
-  - 4 Easy problems (Two Sum, Linked List Cycle, Reverse Linked List, Missing Number)
+  - 5 Easy problems (Two Sum, Linked List Cycle, Reverse Linked List, Merge Two Sorted Lists, Missing Number)
   - 9 Medium problems (3Sum, Reorder List, Word Break, and more)
   - Professional package structure for progressive learning
 - **Pattern Library**: Reusable sorting patterns and techniques extracted from solutions

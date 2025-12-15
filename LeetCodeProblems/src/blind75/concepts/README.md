@@ -42,10 +42,10 @@ This folder contains detailed explanations of fundamental programming concepts a
 
 5. **Dummy Node Pattern**
    - Creates a dummy/sentinel node before the head
-   - Simplifies edge cases (removing head, empty list)
+   - Simplifies edge cases (removing head, empty list, merging)
    - Provides consistent pointer manipulation
    - Returns `dummy.next` as the new head
-   - **Used in:** Problem 19 (Remove Nth Node From End of List)
+   - **Used in:** Problem 19 (Remove Nth Node From End of List), Problem 21 (Merge Two Sorted Lists)
 
 6. **Linked List Reversal**
    - **Iterative:** Three pointers (prev, curr, next) - O(1) space
