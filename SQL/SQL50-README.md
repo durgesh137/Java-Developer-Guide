@@ -37,7 +37,7 @@ SQL/
 |---|---------|--------|--------|
 | 1 | [[1757] Recyclable and Low Fat Products](src/problems/easy/RecyclableAndLowFlat.sql) | SELECT, WHERE, AND → [Basic SQL Concepts](src/docs/BasicSQLConcepts.md) | ✅ |
 | 2 | [[584] Find Customer Referee](src/problems/easy/FindCustomerReferee.sql) | SELECT, WHERE, OR, IS NULL → [Basic SQL Concepts](src/docs/BasicSQLConcepts.md) | ✅ |
-| 3 | [595] Big Countries | SELECT, WHERE, OR | 🔜 |
+| 3 | [[595] Big Countries](src/problems/easy/BigCountries.sql) | SELECT, WHERE, OR, >= → [Basic SQL Concepts](src/docs/BasicSQLConcepts.md) | ✅ |
 | 4 | [1148] Article Views I | SELECT, DISTINCT | 🔜 |
 | 5 | [1683] Invalid Tweets | SELECT, LENGTH | 🔜 |
 | 6 | [1378] Replace Employee ID | SELECT, JOIN | 🔜 |
@@ -296,7 +296,7 @@ Core SQL concepts are documented in reusable concept files:
 **Module Status**: 🚀 In Progress  
 **Last Updated**: December 15, 2025  
 **Total Problems**: 50  
-**Completion**: 2/50 (4%)
+**Completion**: 3/50 (6%)
 
 ---
 

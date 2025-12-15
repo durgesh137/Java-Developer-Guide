@@ -488,7 +488,7 @@ SELECT * FROM Customer WHERE referee_id <=> NULL;
 |---------|---------------|
 | [#1757 Recyclable and Low Fat Products](../problems/easy/RecyclableAndLowFlat.sql) | SELECT, WHERE, AND |
 | [#584 Find Customer Referee](../problems/easy/FindCustomerReferee.sql) | SELECT, WHERE, OR, IS NULL |
-| [#595 Big Countries](../problems/easy/BigCountries.sql) | SELECT, WHERE, OR |
+| [#595 Big Countries](../problems/easy/BigCountries.sql) | SELECT, WHERE, OR, >= |
 | [#1148 Article Views I](../problems/easy/ArticleViewsI.sql) | SELECT, WHERE, DISTINCT |
 
 ---
