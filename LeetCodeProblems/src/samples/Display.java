@@ -42,4 +42,8 @@ public class Display {
         System.out.println(label + ": " + Arrays.toString(arr));
     }
 
+    public static void printTestCase(int i, String mergeKSortedLists) {
+        System.out.println("\nTest Case " + i + (mergeKSortedLists != null ? ": " + mergeKSortedLists : ""));
+        printSeparator();
+    }
 }

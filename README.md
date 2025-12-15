@@ -103,9 +103,10 @@ Comprehensive collection of LeetCode problems including sorting problems and cur
 - **Blind 75**: Curated collection organized by difficulty (easy/medium/hard)
   - 5 Easy problems (Two Sum, Linked List Cycle, Reverse Linked List, Merge Two Sorted Lists, Missing Number)
   - 9 Medium problems (3Sum, Reorder List, Word Break, and more)
+  - 1 Hard problem (Merge k Sorted Lists)
   - Professional package structure for progressive learning
 - **Pattern Library**: Reusable sorting patterns and techniques extracted from solutions
-- **Problem-Solving Strategies**: Two-pointer, frequency counting, greedy, custom comparators
+- **Problem-Solving Strategies**: Two-pointer, frequency counting, greedy, custom comparators, divide and conquer
 - **Helper Utilities**: LinkedListUtils, testing and debugging tools
 
 **Key Features:**

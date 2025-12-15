@@ -205,5 +205,20 @@ public class LinkedListUtils {
     public static void printTestCase(int testNumber) {
         printTestCase(testNumber, null);
     }
+
+    public static void printList(ListNode[] lists) {
+        if (lists == null || lists.length == 0) {
+            System.out.println("[]");
+            return;
+        }
+        System.out.print("[");
+        for (int i = 0; i < lists.length; i++) {
+            printList(lists[i]);
+            if (i < lists.length - 1) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println("]");
+    }
 }
 

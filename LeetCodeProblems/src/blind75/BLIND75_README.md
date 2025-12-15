@@ -10,7 +10,7 @@ A curated collection of 75 must-do LeetCode problems for technical interview pre
 blind75/
 ├── easy/           # Easy difficulty problems (5 solved)
 ├── medium/         # Medium difficulty problems (9 solved)
-├── hard/           # Hard difficulty problems (0 solved)
+├── hard/           # Hard difficulty problems (1 solved)
 ├── docs/           # Problem documentation
 ├── concepts/       # Core concepts and techniques
 ├── ListNode.java   # Common linked list node definition
@@ -174,7 +174,13 @@ Given a string `s`, return the number of palindromic substrings in it.
 
 ## Hard Problems
 
-*No hard problems completed yet*
+### [Problem 23: Merge k Sorted Lists](hard/MergeKSortedLists.java) | [Docs](docs/MergeKSortedLists_README.md)
+**Topics:** Linked List, Divide and Conquer, Heap, Merge Sort
+
+Given an array of k linked-lists, each sorted in ascending order, merge all linked-lists into one sorted list.
+
+**Solution Approach:** Divide and Conquer (Binary Merge)  
+**Time Complexity:** O(N log k) | **Space Complexity:** O(log k)
 
 ---
 
@@ -185,15 +191,15 @@ Given a string `s`, return the number of palindromic substrings in it.
 |-----------|--------|-------|------------|
 | Easy | 5 | ~15 | 33% |
 | Medium | 9 | ~50 | 18% |
-| Hard | 0 | ~10 | 0% |
-| **Total** | **14** | **75** | **18.7%** |
+| Hard | 1 | ~10 | 10% |
+| **Total** | **15** | **75** | **20%** |
 
 ### By Category
 | Category | Solved | Problems |
 |----------|--------|----------|
 | Arrays | 3 | Two Sum, 3Sum, Longest Consecutive Sequence |
 | Strings | 2 | Longest Substring, Palindromic Substring |
-| Linked Lists | 5 | Cycle, Reverse, Merge Two Sorted Lists, Remove Nth, Reorder |
+| Linked Lists | 6 | Cycle, Reverse, Merge Two Sorted Lists, Merge K Sorted Lists, Remove Nth, Reorder |
 | Dynamic Programming | 4 | Word Break, Max Product, Palindromic Substrings, Missing Number |
 
 ---
@@ -217,6 +223,9 @@ java blind75.medium.ThreeSum
 java blind75.medium.ReorderList
 java blind75.medium.WordBreak
 # ... and more
+
+# Hard problems
+java blind75.hard.MergeKSortedLists
 ```
 
 ### Adding New Problems

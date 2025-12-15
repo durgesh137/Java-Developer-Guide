@@ -60,6 +60,15 @@ This folder contains detailed explanations of fundamental programming concepts a
    - Common in list rearrangement problems
    - **Used in:** Problem 143 (Reorder List - Step 3)
 
+### Problem-Solving Strategies
+
+8. **Divide and Conquer**
+   - Break problem into smaller subproblems
+   - Solve subproblems recursively
+   - Combine solutions efficiently
+   - Creates balanced recursion tree for optimal performance
+   - **Used in:** Problem 23 (Merge k Sorted Lists)
+
 ---
 
 ## Why Concepts Matter
