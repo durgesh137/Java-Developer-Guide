@@ -131,7 +131,37 @@ Comprehensive collection of LeetCode problems including sorting problems and cur
 
 ---
 
-### 4. **Future Modules** 
+### 4. **SQL Module** 
+*Status: 🚀 Active - LeetCode SQL 50*
+
+Master SQL through LeetCode's curated **SQL 50** problems, covering all essential database concepts from basic queries to advanced window functions.
+
+**Topics Covered:**
+- **Basic Queries** (1-5): SELECT, WHERE, AND/OR, DISTINCT, String functions
+- **JOINs** (6-14): INNER JOIN, LEFT JOIN, SELF JOIN, CROSS JOIN
+- **Aggregation** (15-20): COUNT, SUM, AVG, GROUP BY, HAVING, Date functions
+- **Subqueries** (21-30): Scalar, correlated subqueries, IN, EXISTS
+- **Window Functions** (31-40): ROW_NUMBER, RANK, DENSE_RANK, LAG, LEAD, partitioning
+- **Advanced Topics** (41-50): CTEs, UNION, CASE, REGEX, DELETE, UPDATE, complex queries
+
+**Key Features:**
+- Complete LeetCode SQL 50 problem collection organized by difficulty
+- Comprehensive documentation with detailed concept explanations
+- Database schemas with test data for each problem
+- Detailed documentation with multiple solution approaches
+- Step-by-step query explanations and performance analysis
+- MySQL 8.0 syntax with PostgreSQL compatibility notes
+
+**Module Structure:**
+- **Problems**: 50 total (20 Easy, 20 Medium, 10 Hard)
+- **Schemas**: DDL and test data for all problems
+- **Documentation**: Detailed README for each problem with concept explanations
+
+📖 [View SQL Module Documentation](SQL/SQL50-README.md)
+
+---
+
+### 5. **Future Modules** 
 *Status: 🔜 Planned*
 
 #### Coming Soon - DSA Modules:
