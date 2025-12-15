@@ -42,10 +42,10 @@ This folder contains detailed explanations of fundamental programming concepts a
 
 5. **Dummy Node Pattern**
    - Creates a dummy/sentinel node before the head
-   - Simplifies edge cases (removing head, empty list)
+   - Simplifies edge cases (removing head, empty list, merging)
    - Provides consistent pointer manipulation
    - Returns `dummy.next` as the new head
-   - **Used in:** Problem 19 (Remove Nth Node From End of List)
+   - **Used in:** Problem 19 (Remove Nth Node From End of List), Problem 21 (Merge Two Sorted Lists)
 
 6. **Linked List Reversal**
    - **Iterative:** Three pointers (prev, curr, next) - O(1) space
@@ -59,6 +59,15 @@ This folder contains detailed explanations of fundamental programming concepts a
    - Requires careful pointer manipulation
    - Common in list rearrangement problems
    - **Used in:** Problem 143 (Reorder List - Step 3)
+
+### Problem-Solving Strategies
+
+8. **Divide and Conquer**
+   - Break problem into smaller subproblems
+   - Solve subproblems recursively
+   - Combine solutions efficiently
+   - Creates balanced recursion tree for optimal performance
+   - **Used in:** Problem 23 (Merge k Sorted Lists)
 
 ---
 
