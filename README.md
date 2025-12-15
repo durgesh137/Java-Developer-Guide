@@ -1,19 +1,23 @@
-# DSA_Java - Data Structures and Algorithms in Java
+# Java Developer Guide
 
 ## 📚 Overview
-This repository contains a comprehensive collection of **Data Structures and Algorithms** problems implemented in Java, organized from **beginner to advanced levels**. Each module focuses on specific topics with detailed implementations, multiple approaches, complexity analysis, and test cases.
+This repository is a comprehensive guide for **Java Developers**, covering a wide range of topics from **Data Structures and Algorithms** to **backend technologies** and **cloud infrastructure**. Currently featuring DSA problems organized from **beginner to advanced levels**, with plans to expand into Java frameworks, databases, microservices, and DevOps tools. Each module focuses on specific topics with detailed implementations, multiple approaches, complexity analysis, and test cases.
 
 ## 🎯 Repository Goals
-- Provide clean, well-documented solutions to common DSA problems
+- Provide clean, well-documented solutions to DSA problems and Java development concepts
 - Cover multiple approaches (naive, optimized, alternative methods)
-- Include time and space complexity analysis
+- Include time and space complexity analysis for algorithms
+- Serve as a comprehensive learning resource for Java developers
+- Cover modern Java technologies: Spring, Spring Boot, Microservices, JPA, Hibernate
+- Include database concepts: SQL, NoSQL
+- Provide DevOps and cloud infrastructure guidance: Docker, Kubernetes, Cloud platforms
 - Support learning through progressive difficulty levels
 - Maintain modular organization for easy navigation
 
 ## 📂 Project Structure
 
 ```
-DSA_Java/
+Java-Developer-Guide/
 ├── README.md                    # Main project documentation
 ├── Basics/                      # Fundamental programming concepts
 │   ├── Basics-README.md         # Detailed module documentation
@@ -47,7 +51,13 @@ DSA_Java/
     ├── Queues/
     ├── Trees/
     ├── Graphs/
-    └── DynamicProgramming/
+    ├── DynamicProgramming/
+    ├── SpringBoot/             # Spring Boot concepts & examples
+    ├── Microservices/          # Microservices architecture
+    ├── Databases/              # SQL & NoSQL
+    ├── Docker/                 # Containerization
+    ├── Kubernetes/             # Container orchestration
+    └── Cloud/                  # Cloud platforms (AWS, Azure, GCP)
 ```
 
 ## 📦 Modules
@@ -124,7 +134,7 @@ Comprehensive collection of LeetCode problems including sorting problems and cur
 ### 4. **Future Modules** 
 *Status: 🔜 Planned*
 
-#### Coming Soon:
+#### Coming Soon - DSA Modules:
 - **Linked Lists**: Singly, Doubly, Circular lists, reversal, cycle detection
 - **Stacks & Queues**: Implementations, balanced parentheses, next greater element
 - **Trees**: Binary trees, BST, traversals, height, diameter
@@ -134,6 +144,18 @@ Comprehensive collection of LeetCode problems including sorting problems and cur
 - **Searching & Sorting**: Binary search variants, Quick sort, Merge sort
 - **Greedy Algorithms**: Activity selection, Huffman coding
 - **Backtracking**: N-Queens, Sudoku solver, Permutations
+
+#### Planned - Java & Backend Technologies:
+- **Core Java**: OOP, Collections, Generics, Streams, Concurrency
+- **Spring Framework**: IoC, DI, AOP, Spring MVC
+- **Spring Boot**: Auto-configuration, REST APIs, Actuator, Profiles
+- **JPA & Hibernate**: Entity mapping, Relationships, Queries, Caching
+- **Microservices**: Service design, Communication patterns, API Gateway
+- **Spring Security**: Authentication, Authorization, JWT, OAuth2
+- **Databases**: SQL (MySQL, PostgreSQL), NoSQL (MongoDB, Redis)
+- **Docker**: Containerization, Docker Compose, Multi-stage builds
+- **Kubernetes**: Pods, Services, Deployments, ConfigMaps, Secrets
+- **Cloud Platforms**: AWS, Azure, GCP essentials
 
 ## 🚀 Getting Started
 
@@ -147,7 +169,7 @@ Comprehensive collection of LeetCode problems including sorting problems and cur
 #### Option 1: Using IntelliJ IDEA
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/DSA_Java.git
+   git clone https://github.com/yourusername/Java-Developer-Guide.git
    ```
 2. Open the project in IntelliJ IDEA
 3. Navigate to any problem file (e.g., `Basics/src/problems/numbers/ReverseNumber.java`)
@@ -157,7 +179,7 @@ Comprehensive collection of LeetCode problems including sorting problems and cur
 #### Option 2: Command Line
 ```bash
 # Navigate to module directory
-cd DSA_Java/Basics
+cd Java-Developer-Guide/Basics
 
 # Compile a Java file
 javac -d out src/problems/numbers/ReverseNumber.java
@@ -299,6 +321,6 @@ Give a ⭐️ if this project helped you learn DSA!
 
 ---
 
-**Last Updated:** November 29, 2025  
+**Last Updated:** December 15, 2025  
 **Version:** 1.0.0
 

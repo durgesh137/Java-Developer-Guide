@@ -1,6 +1,6 @@
 # Branch Protection System
 
-This directory contains branch protection configuration for the DSA_Java repository.
+This directory contains branch protection configuration for the **Java Developer Guide** repository.
 
 ## Files
 

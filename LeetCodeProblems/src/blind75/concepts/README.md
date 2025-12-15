@@ -1,6 +1,6 @@
 # Blind 75 - Core Concepts & Techniques
 
-This folder contains detailed explanations of fundamental programming concepts and techniques used across Blind 75 problems.
+This folder contains detailed explanations of fundamental programming concepts and techniques used across Blind 75 problems. Part of the **Java Developer Guide** repository's Blind 75 collection.
 
 ---
 

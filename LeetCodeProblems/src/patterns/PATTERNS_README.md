@@ -1,9 +1,9 @@
 # Sorting Patterns Library
 
-A comprehensive guide to common patterns used in solving LeetCode sorting problems.
+A comprehensive guide to common patterns used in solving LeetCode sorting problems. Part of the **Java Developer Guide** repository's LeetCodeProblems module.
 
 **Quick Links:**  
-🎯 [Blind 75 Problems](../blind75/BLIND75_README.md) | 📚 [Sorting Module](../../../Sorting-README.md) | 💡 [Problem Solutions](../problems/)
+🎯 [Blind 75 Problems](../blind75/BLIND75_README.md) | 📚 [LeetCodeProblems Module](../../LeetCodeProblems-README.md) | 💡 [Problem Solutions](../problems/)
 
 ---
 
