@@ -196,7 +196,244 @@ SELECT * FROM Products WHERE price >= 10 AND price <= 50;
 
 ---
 
-## 6. ENUM Data Type
+## 7. DISTINCT Keyword
+
+The `DISTINCT` keyword removes duplicate rows from the result set.
+
+### Syntax
+```sql
+SELECT DISTINCT column1, column2, ...
+FROM table_name;
+```
+
+### Examples
+
+**Without DISTINCT (includes duplicates):**
+```sql
+SELECT author_id 
+FROM Views 
+WHERE author_id = viewer_id;
+-- Result: [4, 4, 7] - author 4 appears twice
+```
+
+**With DISTINCT (removes duplicates):**
+```sql
+SELECT DISTINCT author_id 
+FROM Views 
+WHERE author_id = viewer_id;
+-- Result: [4, 7] - each author appears once
+```
+
+**DISTINCT with multiple columns:**
+```sql
+SELECT DISTINCT author_id, viewer_id 
+FROM Views;
+-- Removes rows where BOTH columns are identical
+```
+
+### Key Points
+- DISTINCT applies to the entire row (all selected columns combined)
+- Placed immediately after SELECT
+- Can impact performance on large datasets (requires sorting/hashing)
+- Returns unique combinations of all selected columns
+
+### When to Use DISTINCT
+- ✅ Removing duplicate results
+- ✅ Counting unique values: `SELECT COUNT(DISTINCT column)`
+- ✅ Finding unique combinations
+
+### Common Mistakes
+
+❌ **DISTINCT on wrong position:**
+```sql
+-- WRONG: DISTINCT must come right after SELECT
+SELECT author_id DISTINCT FROM Views;
+
+-- CORRECT:
+SELECT DISTINCT author_id FROM Views;
+```
+
+❌ **Misunderstanding multi-column DISTINCT:**
+```sql
+-- This returns unique COMBINATIONS of (col1, col2)
+SELECT DISTINCT col1, col2 FROM table;
+-- Not unique col1 values AND unique col2 values separately!
+```
+
+---
+
+## 8. ORDER BY Clause
+
+The `ORDER BY` clause sorts the result set by one or more columns.
+
+### Syntax
+```sql
+SELECT column1, column2, ...
+FROM table_name
+ORDER BY column1 [ASC|DESC], column2 [ASC|DESC], ...;
+```
+
+### Sort Orders
+- **ASC** (Ascending): Default, smallest to largest (A-Z, 0-9)
+- **DESC** (Descending): Largest to smallest (Z-A, 9-0)
+
+### Examples
+
+**Sort by single column (ascending - default):**
+```sql
+SELECT author_id 
+FROM Views 
+WHERE author_id = viewer_id
+ORDER BY author_id;
+-- Result: [4, 7] - sorted ascending
+```
+
+**Sort descending:**
+```sql
+SELECT name, population 
+FROM World
+ORDER BY population DESC;
+-- Result: Countries from highest to lowest population
+```
+
+**Sort by multiple columns:**
+```sql
+SELECT name, area, population 
+FROM World
+ORDER BY area DESC, population ASC;
+-- First by area (descending), then by population (ascending) for ties
+```
+
+**Sort with column alias:**
+```sql
+SELECT author_id AS id 
+FROM Views
+ORDER BY id;  -- Can use alias in ORDER BY
+```
+
+**Sort by column position (not recommended):**
+```sql
+SELECT name, population 
+FROM World
+ORDER BY 2 DESC;  -- Sort by 2nd column (population)
+-- Avoid this - less readable
+```
+
+### Key Points
+- ORDER BY is executed AFTER WHERE and SELECT
+- Default sort order is ASC (ascending)
+- NULL values are sorted first (or last, depending on database)
+- Can sort by columns not in SELECT list
+- Most expensive operation (requires sorting entire result set)
+
+### Performance Considerations
+
+**Time Complexity:**
+- O(n log n) for sorting
+- Can be optimized with indexes on ORDER BY columns
+
+**Create index for ORDER BY:**
+```sql
+CREATE INDEX idx_views_author ON Views(author_id);
+-- Speeds up: ORDER BY author_id
+```
+
+### ORDER BY with DISTINCT
+
+When using both:
+```sql
+SELECT DISTINCT author_id AS id
+FROM Views
+WHERE author_id = viewer_id
+ORDER BY id;
+```
+
+**Execution order:**
+1. FROM Views
+2. WHERE author_id = viewer_id (filter)
+3. SELECT DISTINCT author_id (remove duplicates)
+4. ORDER BY id (sort results)
+
+---
+
+## 9. Column Aliases (AS)
+
+The `AS` keyword creates an alias (alternative name) for a column or table.
+
+### Syntax
+```sql
+SELECT column_name AS alias_name
+FROM table_name;
+```
+
+### Examples
+
+**Simple alias:**
+```sql
+SELECT author_id AS id 
+FROM Views;
+-- Column renamed from 'author_id' to 'id' in output
+```
+
+**Alias without AS keyword:**
+```sql
+SELECT author_id id 
+FROM Views;
+-- AS is optional, but recommended for clarity
+```
+
+**Alias with spaces (requires quotes):**
+```sql
+SELECT author_id AS "Author ID"
+FROM Views;
+-- Use quotes for aliases with spaces
+```
+
+**Expressions with aliases:**
+```sql
+SELECT 
+    area / 1000000 AS area_in_millions,
+    population / 1000000 AS population_in_millions
+FROM World;
+```
+
+### Using Aliases
+
+**In ORDER BY (✅ allowed):**
+```sql
+SELECT author_id AS id 
+FROM Views
+ORDER BY id;  -- Can use alias
+```
+
+**In WHERE (❌ not allowed):**
+```sql
+-- WRONG: Can't use alias in WHERE
+SELECT author_id AS id 
+FROM Views
+WHERE id = 5;  -- Error!
+
+-- CORRECT: Use original column name
+SELECT author_id AS id 
+FROM Views
+WHERE author_id = 5;
+```
+
+**Why?** Because of SQL execution order:
+1. FROM
+2. WHERE (alias doesn't exist yet!)
+3. SELECT (alias created here)
+4. ORDER BY (alias now exists)
+
+### Key Points
+- Makes output more readable
+- Required when output column name must differ from table column
+- Can't use in WHERE clause (use in ORDER BY, HAVING)
+- AS keyword is optional but improves readability
+
+---
+
+## 10. ENUM Data Type
 
 ENUM is a data type that restricts column values to a predefined list.
 
@@ -227,7 +464,7 @@ INSERT INTO Products VALUES (2, 'Yes', 'N'); -- Invalid (not in ENUM)
 
 ---
 
-## 7. Common Mistakes to Avoid
+## 11. Common Mistakes to Avoid
 
 ### ❌ Mistake 1: Confusing AND with OR
 ```sql
@@ -273,7 +510,7 @@ WHERE low_fats = 'Y' AND recyclable = 'Y';
 
 ---
 
-## 8. Performance Considerations
+## 12. Performance Considerations
 
 ### Indexing
 ```sql
@@ -298,7 +535,7 @@ CREATE INDEX idx_product_filters ON Products(low_fats, recyclable);
 
 ---
 
-## 9. Query Execution Order
+## 13. Query Execution Order
 
 SQL doesn't execute in the order you write it!
 
@@ -321,7 +558,7 @@ LIMIT 10;                   -- 6. Limit number of rows
 
 ---
 
-## 10. NULL Handling
+## 14. NULL Handling
 
 NULL represents the absence of a value. It's NOT the same as zero, empty string, or false.
 
@@ -471,7 +708,7 @@ SELECT * FROM Customer WHERE referee_id <=> NULL;
 
 ---
 
-## 11. Related Concepts
+## 15. Related Concepts
 
 - **IN operator**: `WHERE column IN (value1, value2, ...)`
 - **BETWEEN**: `WHERE column BETWEEN value1 AND value2`
@@ -489,7 +726,7 @@ SELECT * FROM Customer WHERE referee_id <=> NULL;
 | [#1757 Recyclable and Low Fat Products](../problems/easy/RecyclableAndLowFlat.sql) | SELECT, WHERE, AND |
 | [#584 Find Customer Referee](../problems/easy/FindCustomerReferee.sql) | SELECT, WHERE, OR, IS NULL |
 | [#595 Big Countries](../problems/easy/BigCountries.sql) | SELECT, WHERE, OR, >= |
-| [#1148 Article Views I](../problems/easy/ArticleViewsI.sql) | SELECT, WHERE, DISTINCT |
+| [#1148 Article Views I](../problems/easy/ArticleViews1.sql) | SELECT, WHERE, DISTINCT, ORDER BY, AS |
 
 ---
 
