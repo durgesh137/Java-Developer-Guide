@@ -1,7 +1,7 @@
 # Basics Module - README
 
 ## Overview
-This module contains all basic beginner-friendly programming problems and example solutions covering fundamental concepts in Java.
+This module is part of the **Java Developer Guide** and contains fundamental programming problems covering essential concepts in Java. It serves as the starting point for developers to build a strong foundation before diving into advanced topics like Data Structures, Algorithms, and Java backend technologies.
 
 ## Problems covered so far
 

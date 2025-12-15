@@ -1,6 +1,6 @@
 # Blind 75 Problems
 
-A curated collection of 75 must-do LeetCode problems for technical interview preparation, organized by difficulty level.
+A curated collection of 75 must-do LeetCode problems for technical interview preparation, organized by difficulty level. This is part of the **Java Developer Guide** repository's LeetCodeProblems module.
 
 ---
 

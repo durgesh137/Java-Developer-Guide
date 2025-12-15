@@ -1,7 +1,7 @@
 # LeetCodeProblems Module - README
 
 ## Overview
-This module contains comprehensive LeetCode problem collections including sorting problems, Blind 75 curated interview problems, and pattern libraries. Problems are organized sequentially and by difficulty, with detailed explanations, multiple approaches, and pattern identification to help understand common problem-solving techniques.
+This module is part of the **Java Developer Guide** and contains comprehensive LeetCode problem collections including sorting problems, Blind 75 curated interview problems, and pattern libraries. Problems are organized sequentially and by difficulty, with detailed explanations, multiple approaches, and pattern identification to help understand common problem-solving techniques essential for technical interviews and DSA mastery.
 
 ## Module Structure
 

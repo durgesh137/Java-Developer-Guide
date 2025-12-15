@@ -1,7 +1,7 @@
 # Arrays Module - README
 
 ## Overview
-This module contains comprehensive coverage of array manipulation, searching, and algorithmic problems in Java. It is organized into different levels based on problem complexity, from basic operations to advanced algorithms.
+This module is part of the **Java Developer Guide** and focuses on comprehensive coverage of array manipulation, searching, and algorithmic problems in Java. It is organized into different levels based on problem complexity, from basic operations to advanced algorithms, providing a solid foundation in Data Structures and Algorithms.
 
 ## Problems covered so far
 
