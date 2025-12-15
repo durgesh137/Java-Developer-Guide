@@ -727,6 +727,7 @@ SELECT * FROM Customer WHERE referee_id <=> NULL;
 | [#584 Find Customer Referee](../problems/easy/FindCustomerReferee.sql) | SELECT, WHERE, OR, IS NULL |
 | [#595 Big Countries](../problems/easy/BigCountries.sql) | SELECT, WHERE, OR, >= |
 | [#1148 Article Views I](../problems/easy/ArticleViews1.sql) | SELECT, WHERE, DISTINCT, ORDER BY, AS |
+| [#1683 Invalid Tweets](../problems/easy/InvalidTweets.sql) | SELECT, WHERE, LENGTH() |
 
 ---
 

@@ -39,7 +39,7 @@ SQL/
 | 2 | [[584] Find Customer Referee](src/problems/easy/FindCustomerReferee.sql) | SELECT, WHERE, OR, IS NULL → [Basic SQL Concepts](src/docs/BasicSQLConcepts.md) | ✅ |
 | 3 | [[595] Big Countries](src/problems/easy/BigCountries.sql) | SELECT, WHERE, OR, >= → [Basic SQL Concepts](src/docs/BasicSQLConcepts.md) | ✅ |
 | 4 | [[1148] Article Views I](src/problems/easy/ArticleViews1.sql) | SELECT, WHERE, DISTINCT, ORDER BY → [Basic SQL Concepts](src/docs/BasicSQLConcepts.md) | ✅ |
-| 5 | [1683] Invalid Tweets | SELECT, LENGTH | 🔜 |
+| 5 | [[1683] Invalid Tweets](src/problems/easy/InvalidTweets.sql) | SELECT, WHERE, LENGTH() → [Basic SQL Concepts](src/docs/BasicSQLConcepts.md) | ✅ |
 | 6 | [1378] Replace Employee ID | SELECT, JOIN | 🔜 |
 | 7 | [1068] Product Sales Analysis I | SELECT, JOIN | 🔜 |
 | 8 | [1581] Customer Who Visited | LEFT JOIN, COUNT | 🔜 |
@@ -260,10 +260,10 @@ WHERE low_fats = 'Y' AND recyclable = 'Y';
 
 | Difficulty | Total | Completed | Percentage |
 |------------|-------|-----------|------------|
-| Easy       | 20    | 0         | 0%         |
+| Easy       | 20    | 5         | 25%        |
 | Medium     | 20    | 0         | 0%         |
 | Hard       | 10    | 0         | 0%         |
-| **Total**  | **50**| **0**     | **0%**     |
+| **Total**  | **50**| **5**     | **10%**    |
 
 ## 🎓 What You'll Learn
 
@@ -296,7 +296,7 @@ Core SQL concepts are documented in reusable concept files:
 **Module Status**: 🚀 In Progress  
 **Last Updated**: December 15, 2025  
 **Total Problems**: 50  
-**Completion**: 4/50 (8%)
+**Completion**: 5/50 (10%)
 
 ---
 
