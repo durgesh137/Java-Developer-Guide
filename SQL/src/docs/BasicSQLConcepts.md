@@ -321,7 +321,157 @@ LIMIT 10;                   -- 6. Limit number of rows
 
 ---
 
-## 10. Related Concepts
+## 10. NULL Handling
+
+NULL represents the absence of a value. It's NOT the same as zero, empty string, or false.
+
+### What is NULL?
+
+- **NULL** = Unknown or missing value
+- NULL is NOT equal to anything, including NULL itself
+- NULL in any arithmetic operation results in NULL
+- NULL in any comparison (except IS NULL) results in NULL (not TRUE or FALSE)
+
+### IS NULL and IS NOT NULL
+
+Check if a value is NULL or not NULL.
+
+#### Syntax
+```sql
+WHERE column IS NULL      -- Check if column is NULL
+WHERE column IS NOT NULL  -- Check if column has a value
+```
+
+#### Examples
+
+**Find rows with NULL values:**
+```sql
+SELECT name 
+FROM Customer 
+WHERE referee_id IS NULL;
+-- Returns customers with no referee
+```
+
+**Find rows with non-NULL values:**
+```sql
+SELECT name 
+FROM Customer 
+WHERE referee_id IS NOT NULL;
+-- Returns customers who have a referee
+```
+
+**Combined with other conditions:**
+```sql
+SELECT name 
+FROM Customer 
+WHERE referee_id IS NULL OR referee_id != 2;
+-- Returns customers with no referee OR referred by someone other than customer 2
+```
+
+### Key Points About NULL
+
+#### ❌ Common Mistake: Using = NULL
+```sql
+-- WRONG: This will NOT work
+WHERE referee_id = NULL   -- Always evaluates to NULL (not TRUE)
+
+-- CORRECT: Use IS NULL
+WHERE referee_id IS NULL  -- Correctly checks for NULL
+```
+
+#### NULL in Comparisons
+
+```sql
+-- All these evaluate to NULL (not TRUE or FALSE):
+NULL = NULL    -- NULL (not TRUE!)
+NULL != 5      -- NULL (not TRUE!)
+NULL > 0       -- NULL (not TRUE!)
+NULL < 10      -- NULL (not TRUE!)
+
+-- Only these work correctly:
+referee_id IS NULL      -- TRUE if referee_id is NULL
+referee_id IS NOT NULL  -- TRUE if referee_id is not NULL
+```
+
+### Truth Table with NULL
+
+```
+Expression       | Result
+-----------------|-------
+TRUE AND NULL    | NULL
+FALSE AND NULL   | FALSE
+TRUE OR NULL     | TRUE
+FALSE OR NULL    | NULL
+NOT NULL         | NULL
+```
+
+### Examples from Real Problems
+
+#### Problem: Find Customer Referee (#584)
+```sql
+-- Find customers NOT referred by customer 2
+-- Must handle NULL (no referee) separately
+
+-- WRONG: This misses customers with NULL referee_id
+SELECT name FROM Customer WHERE referee_id != 2;
+-- NULL != 2 evaluates to NULL (not TRUE), so NULL rows are excluded
+
+-- CORRECT: Explicitly include NULL
+SELECT name FROM Customer 
+WHERE referee_id IS NULL OR referee_id != 2;
+-- Now we get customers with NULL AND customers referred by others
+```
+
+### NULL in Arithmetic
+
+```sql
+-- All result in NULL:
+NULL + 5        -- NULL
+NULL * 10       -- NULL
+NULL / 2        -- NULL
+```
+
+### COALESCE Function
+
+Replace NULL with a default value.
+
+```sql
+-- Syntax
+COALESCE(column, default_value)
+
+-- Example: Replace NULL with 0
+SELECT 
+    name,
+    COALESCE(referee_id, 0) as referee_id_or_zero
+FROM Customer;
+```
+
+### IFNULL / ISNULL Functions
+
+**MySQL:**
+```sql
+IFNULL(column, default_value)
+
+SELECT name, IFNULL(referee_id, 'No Referee') 
+FROM Customer;
+```
+
+**SQL Server:**
+```sql
+ISNULL(column, default_value)
+```
+
+### NULL-Safe Comparison (MySQL)
+
+```sql
+-- <=> is NULL-safe equality operator (MySQL only)
+SELECT * FROM Customer WHERE referee_id <=> NULL;
+-- Same as: WHERE referee_id IS NULL
+```
+
+---
+
+## 11. Related Concepts
 
 - **IN operator**: `WHERE column IN (value1, value2, ...)`
 - **BETWEEN**: `WHERE column BETWEEN value1 AND value2`
@@ -337,7 +487,7 @@ LIMIT 10;                   -- 6. Limit number of rows
 | Problem | Concepts Used |
 |---------|---------------|
 | [#1757 Recyclable and Low Fat Products](../problems/easy/RecyclableAndLowFlat.sql) | SELECT, WHERE, AND |
-| [#584 Find Customer Referee](../problems/easy/FindCustomerReferee.sql) | SELECT, WHERE, IS NULL |
+| [#584 Find Customer Referee](../problems/easy/FindCustomerReferee.sql) | SELECT, WHERE, OR, IS NULL |
 | [#595 Big Countries](../problems/easy/BigCountries.sql) | SELECT, WHERE, OR |
 | [#1148 Article Views I](../problems/easy/ArticleViewsI.sql) | SELECT, WHERE, DISTINCT |
 
