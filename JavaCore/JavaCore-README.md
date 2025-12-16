@@ -81,7 +81,7 @@ JavaCore/
 
 | Topic | Status | Subtopics |
 |-------|--------|-----------|
-| **Encapsulation** | 🔜 Planned | Data hiding, getters/setters, access modifiers |
+| **Encapsulation** | ✅ Completed | Data hiding, getters/setters, access modifiers, validation |
 | **Inheritance** | 🔜 Planned | extends, super, method overriding, types of inheritance |
 | **Polymorphism** | 🔜 Planned | Method overloading, method overriding, dynamic dispatch |
 | **Abstraction** | 🔜 Planned | Abstract classes, interfaces, when to use what |
