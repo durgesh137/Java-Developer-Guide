@@ -78,6 +78,8 @@ JavaCore/
 ## 📊 Implementation Roadmap
 
 ### Phase 1: OOP Fundamentals (Current Focus)
+- See the OOP overview and per-principle READMEs: [OOP (Object-Oriented Programming)](./src/oop/OOP_Readme.md)
+
 
 | Topic | Status | Subtopics |
 |-------|--------|-----------|
@@ -197,5 +199,3 @@ Each example will include:
 ---
 
 [← Back to Main README](../README.md)
-
-
