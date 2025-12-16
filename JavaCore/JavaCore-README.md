@@ -78,10 +78,12 @@ JavaCore/
 ## 📊 Implementation Roadmap
 
 ### Phase 1: OOP Fundamentals (Current Focus)
+- See the OOP overview and per-principle READMEs: [OOP (Object-Oriented Programming)](./src/oop/OOP_Readme.md)
+
 
 | Topic | Status | Subtopics |
 |-------|--------|-----------|
-| **Encapsulation** | 🔜 Planned | Data hiding, getters/setters, access modifiers |
+| **Encapsulation** | ✅ Completed | Data hiding, getters/setters, access modifiers, validation |
 | **Inheritance** | 🔜 Planned | extends, super, method overriding, types of inheritance |
 | **Polymorphism** | 🔜 Planned | Method overloading, method overriding, dynamic dispatch |
 | **Abstraction** | 🔜 Planned | Abstract classes, interfaces, when to use what |
@@ -197,5 +199,3 @@ Each example will include:
 ---
 
 [← Back to Main README](../README.md)
-
-

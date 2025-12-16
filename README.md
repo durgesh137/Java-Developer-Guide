@@ -189,12 +189,16 @@ Master SQL through LeetCode's curated **SQL 50** problems, covering all essentia
 ---
 
 ### 5. **JavaCore Module** ⭐ NEW
-*Status: 🚀 Active - Structure Setup*
+*Status: 🚀 Active - OOP Fundamentals in Progress*
 
 Comprehensive coverage of **Core Java concepts** essential for technical interviews at top-tier companies. Focus on Object-Oriented Programming, SOLID principles, Design Patterns, Collections, Multithreading, and Java 8+ features.
 
 **Topics Covered:**
-- **OOP Fundamentals**: Encapsulation, Inheritance, Polymorphism, Abstraction
+- **OOP Fundamentals**: 
+  - ✅ Encapsulation (Completed - 3 examples: PasswordManager, UserProfile, BankAccount)
+  - 🔜 Inheritance
+  - 🔜 Polymorphism
+  - 🔜 Abstraction
 - **SOLID Principles**: Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion
 - **Design Patterns**: 
   - Creational (Singleton, Factory, Builder, Prototype)
@@ -209,22 +213,34 @@ Comprehensive coverage of **Core Java concepts** essential for technical intervi
 **Key Features:**
 - Structured learning path for freshers to senior developers
 - Real-world examples with practical applications
-- Interview-focused preparation roadmap
+- Interview-focused preparation with Q&A sections
 - Progressive difficulty levels
 - Clean, well-documented code examples
+- Defensive programming and best practices
 
 **Implementation Roadmap:**
 - **Phase 1** (Current): OOP Fundamentals
+  - ✅ Encapsulation: Data hiding, validation, defensive copying
+  - 🔜 Inheritance: Class hierarchies, method overriding
+  - 🔜 Polymorphism: Method overloading, dynamic dispatch
+  - 🔜 Abstraction: Abstract classes, interfaces
 - **Phase 2**: SOLID Principles
 - **Phase 3**: Design Patterns
 - **Phase 4**: Collections Framework
 - **Phase 5**: Multithreading & Concurrency
 - **Phase 6**: Java 8+ Features (Streams, Lambda)
 
+**Completed Components:**
+- **Encapsulation**: 3 practical examples with full documentation
+  - PasswordManager: Secure password validation and management
+  - UserProfile: User management with roles, preferences, timestamps
+  - BankAccount: Banking operations with balance protection
+  - Complete README with interview questions and best practices
+
 **Module Structure:**
 - **Concepts**: Theoretical explanations and documentation
 - **Code Examples**: Practical implementations for each topic
-- **Interview Questions**: Curated Q&A for interview preparation (planned)
+- **Interview Questions**: Curated Q&A for interview preparation
 - **Best Practices**: Industry-standard coding patterns
 
 📖 [View JavaCore Module Documentation](./JavaCore/JavaCore-README.md)
