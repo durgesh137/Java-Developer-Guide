@@ -76,7 +76,7 @@
 
 25. Design a class that demonstrates proper encapsulation with validation, defensive copying, and audit trail (timestamps).
 
-[↑ Back to Table of Contents](#table-of-contents)
+[↑ Back to Table of Contents](#table-of-contents) | [↑ Encapsulation](#encapsulation)
 
 ---
 
@@ -158,11 +158,13 @@
 
 60. Design a multi-level inheritance hierarchy demonstrating proper use of `super`, access modifiers, and method overriding.
 
-[↑ Back to Table of Contents](#table-of-contents)
+[↑ Back to Table of Contents](#table-of-contents) | [↑ Inheritance](#inheritance)
 
 ---
 
 ### Polymorphism
+
+[Next Section: Abstraction →](#abstraction)
 
 **Basic Concepts (61-70)**
 
@@ -240,11 +242,13 @@
 
 95. What are the trade-offs between using inheritance-based polymorphism vs interface-based polymorphism?
 
-[↑ Back to Table of Contents](#table-of-contents)
+[↑ Back to Table of Contents](#table-of-contents) | [↑ Polymorphism](#polymorphism)
 
 ---
 
 ### Abstraction
+
+[Next Section: General OOP Questions →](#general-oop-questions)
 
 **Basic Concepts (96-105)**
 
@@ -342,7 +346,7 @@
 
 140. What are sealed classes (Java 17+)? How do they relate to abstraction?
 
-[↑ Back to Table of Contents](#table-of-contents)
+[↑ Back to Table of Contents](#table-of-contents) | [↑ Abstraction](#abstraction)
 
 ---
 
@@ -474,9 +478,7 @@
 
 200. Design a complete OOP system (e.g., library management, parking lot) demonstrating all four OOP principles.
 
-[↑ Back to Table of Contents](#table-of-contents)
-
-[↑ Back to Table of Contents](#table-of-contents)
+[↑ Back to Table of Contents](#table-of-contents) | [↑ General OOP Questions](#general-oop-questions)
 
 ---
 
@@ -516,7 +518,7 @@
 
 215. Can you modify a collection while iterating through it?
 
-[↑ Back to Table of Contents](#table-of-contents)
+[↑ Back to Table of Contents](#table-of-contents) | [↑ Collection Interface & Hierarchy](#collection-interface--hierarchy)
 
 ---
 
@@ -618,7 +620,7 @@
 
 260. Compare the performance of ArrayList, LinkedList, and Vector for different operations.
 
-[↑ Back to Table of Contents](#table-of-contents)
+[↑ Back to Table of Contents](#table-of-contents) | [↑ List Interface](#list-interface)
 
 ---
 
@@ -720,7 +722,7 @@
 
 305. Compare the performance of HashSet, LinkedHashSet, and TreeSet for different operations.
 
-[↑ Back to Table of Contents](#table-of-contents)
+[↑ Back to Table of Contents](#table-of-contents) | [↑ Set Interface](#set-interface)
 
 ---
 
@@ -882,7 +884,7 @@
 
 380. How did ConcurrentHashMap change in Java 8?
 
-[↑ Back to Table of Contents](#table-of-contents)
+[↑ Back to Table of Contents](#table-of-contents) | [↑ Map Interface](#map-interface)
 
 ---
 
@@ -974,7 +976,7 @@
 
 420. How would you implement a bounded queue using ArrayDeque?
 
-[↑ Back to Table of Contents](#table-of-contents)
+[↑ Back to Table of Contents](#table-of-contents) | [↑ Queue & Deque Interfaces](#queue--deque-interfaces)
 
 ---
 
@@ -1044,7 +1046,7 @@
 
 450. What is `Comparator.reverseOrder()` method?
 
-[↑ Back to Table of Contents](#table-of-contents)
+[↑ Back to Table of Contents](#table-of-contents) | [↑ Comparable & Comparator](#comparable--comparator)
 
 ---
 
@@ -1146,7 +1148,7 @@
 
 495. How would you implement a custom synchronized collection?
 
-[↑ Back to Table of Contents](#table-of-contents)
+[↑ Back to Table of Contents](#table-of-contents) | [↑ Collections Utility Class](#collections-utility-class)
 
 ---
 
@@ -1238,7 +1240,7 @@
 
 535. How would you implement a custom array sorting algorithm?
 
-[↑ Back to Table of Contents](#table-of-contents)
+[↑ Back to Table of Contents](#table-of-contents) | [↑ Arrays Utility Class](#arrays-utility-class)
 
 ---
 
@@ -1276,7 +1278,7 @@
 
 550. What are the best practices for equals() and hashCode() when using collections?
 
-[↑ Back to Table of Contents](#table-of-contents)
+[↑ Back to Table of Contents](#table-of-contents) | [↑ Best Practices & Design Patterns](#best-practices--design-patterns)
 
 ---
 
@@ -1410,7 +1412,7 @@
 
 610. Should you use Thread Groups in modern Java applications?
 
-[↑ Back to Table of Contents](#table-of-contents)
+[↑ Back to Table of Contents](#table-of-contents) | [↑ Thread Basics](#thread-basics)
 
 ---
 
@@ -1562,7 +1564,7 @@
 
 680. How can you detect deadlock?
 
-[↑ Back to Table of Contents](#table-of-contents)
+[↑ Back to Table of Contents](#table-of-contents) | [↑ Synchronization](#synchronization)
 
 ---
 
@@ -1714,7 +1716,7 @@
 
 750. What is the `afterExecute()` hook in ThreadPoolExecutor?
 
-[↑ Back to Table of Contents](#table-of-contents)
+[↑ Back to Table of Contents](#table-of-contents) | [↑ Executor Framework](#executor-framework)
 
 ---
 
@@ -1866,7 +1868,7 @@
 
 820. How does CAS enable lock-free programming?
 
-[↑ Back to Table of Contents](#table-of-contents)
+[↑ Back to Table of Contents](#table-of-contents) | [↑ Locks & Concurrent Utilities](#locks--concurrent-utilities)
 
 ---
 
@@ -1988,11 +1990,13 @@
 
 875. What is the false sharing problem with atomic variables?
 
-[↑ Back to Table of Contents](#table-of-contents)
+[↑ Back to Table of Contents](#table-of-contents) | [↑ Atomic Variables](#atomic-variables)
 
 ---
 
 ### Concurrent Collections
+
+[Next Section: CompletableFuture & async-programming →](#completablefuture--async-programming)
 
 **Basic Concepts (876-895)**
 
@@ -2140,11 +2144,12 @@
 
 945. How do you handle bulk operations in concurrent collections?
 
-[↑ Back to Table of Contents](#table-of-contents)
+[↑ Back to Table of Contents](#table-of-contents) | [↑ Concurrent Collections](#concurrent-collections)
 
 ---
 
 ### CompletableFuture & Async Programming
+[Next Section: Advanced-concurrency-topics →](#advanced-concurrency-topics)
 
 **Basic Concepts (946-965)**
 
@@ -2282,7 +2287,7 @@
 
 1010. How would you implement parallel processing using CompletableFuture?
 
-[↑ Back to Table of Contents](#table-of-contents)
+[↑ Back to Table of Contents](#table-of-contents) | [↑ CompletableFuture & Async Programming](#completablefuture--async-programming)
 
 ---
 
@@ -2476,7 +2481,7 @@
 
 1100. What are the trends in concurrent programming?
 
-[↑ Back to Table of Contents](#table-of-contents)
+[↑ Back to Table of Contents](#table-of-contents) | [↑ Advanced Concurrency Topics](#advanced-concurrency-topics)
 
 ---
 
