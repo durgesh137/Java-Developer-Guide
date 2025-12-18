@@ -214,6 +214,7 @@ Focus on:
 
 ---
 
-**Last Updated:** December 16, 2025  
-**Total Questions:** 1,775 across all topics
+**Last Updated:** December 18, 2025  
+**Total Questions:** 1,775 across all topics  
+**Linked with Solutions:** 510 questions (Exception Handling, Design Patterns, Spring Boot, Hibernate, Microservices)
 
