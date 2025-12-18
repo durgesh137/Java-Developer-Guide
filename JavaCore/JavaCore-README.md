@@ -3,8 +3,8 @@
 ## 📚 Overview
 This module covers **Core Java concepts** essential for Java interviews at top-tier companies. Focus on Object-Oriented Programming, Collections, Multithreading, Streams, and more.
 
-**Status**: 🚀 Active - Structure Setup  
-**Last Updated**: December 16, 2025  
+**Status**: 🚀 Active - OOP & Interview Questions  
+**Last Updated**: December 18, 2025  
 **Target Level**: Fresher to Senior (0-10 years)
 
 ---
@@ -77,16 +77,34 @@ JavaCore/
 
 ## 📊 Implementation Roadmap
 
-### Phase 1: OOP Fundamentals (Current Focus)
-- See the OOP overview and per-principle READMEs: [OOP (Object-Oriented Programming)](./src/oop/OOP_Readme.md)
+### Phase 1: OOP Fundamentals (In Progress)
+- See the OOP overview: [OOP (Object-Oriented Programming)](./src/oop/OOP_Readme.md)
 
+| Topic | Status | Subtopics | Examples |
+|-------|--------|-----------|----------|
+| **Encapsulation** | ✅ Completed | Data hiding, getters/setters, access modifiers, validation | 3 examples: PasswordManager, UserProfile, BankAccount |
+| **Inheritance** | ✅ Completed | extends, super, method overriding, types of inheritance | 2 examples: VehicleHierarchy, Employee |
+| **Polymorphism** | 🔜 Planned | Method overloading, method overriding, dynamic dispatch | Coming soon |
+| **Abstraction** | 🔜 Planned | Abstract classes, interfaces, when to use what | Coming soon |
 
-| Topic | Status | Subtopics |
-|-------|--------|-----------|
-| **Encapsulation** | ✅ Completed | Data hiding, getters/setters, access modifiers, validation |
-| **Inheritance** | 🔜 Planned | extends, super, method overriding, types of inheritance |
-| **Polymorphism** | 🔜 Planned | Method overloading, method overriding, dynamic dispatch |
-| **Abstraction** | 🔜 Planned | Abstract classes, interfaces, when to use what |
+### Phase 1.5: Interview Questions ⭐ NEW
+**Status:** 510/1,775 questions linked with solution placeholders
+
+| Topic | Questions | Status |
+|-------|-----------|--------|
+| OOP (problem-set.md) | 140 | 📝 Questions Only |
+| Collections (problem-set.md) | 215 | 📝 Questions Only |
+| Multithreading (problem-set.md) | 610 | 📝 Questions Only |
+| Java 8+ Features | 100 | 🔜 Planned |
+| **Exception Handling** | **70** | **✅ Linked** |
+| **Design Patterns** | **100** | **✅ Linked** |
+| Spring Framework | 100 | 🔜 Planned |
+| **Spring Boot** | **100** | **✅ Linked** |
+| JPA | 100 | 🔜 Planned |
+| **Hibernate** | **120** | **✅ Linked** |
+| **Microservices** | **120** | **✅ Linked** |
+
+📖 **[View Complete Interview Questions Guide →](./interview-questions/README.md)**
 
 ### Phase 2: SOLID Principles (Week 2)
 - Single Responsibility Principle

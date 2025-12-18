@@ -449,6 +449,6 @@ Give a ⭐️ if this project helped you learn DSA!
 
 ---
 
-**Last Updated:** December 16, 2025  
-**Version:** 1.1.0
+**Last Updated:** December 18, 2025  
+**Version:** 1.2.0
 
