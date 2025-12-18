@@ -10,9 +10,14 @@
 1. [OOP (Object-Oriented Programming)](#oop-object-oriented-programming)
 2. [Collections Framework](#collections-framework)
 3. [Multithreading & Concurrency](#multithreading--concurrency)
-4. [Java 8+ Features](#java-8-features) (Coming Soon)
-5. [Exception Handling](#exception-handling) (Coming Soon)
-6. [Design Patterns](#design-patterns) (Coming Soon)
+4. [Java 8+ Features](java8-features.md) ✅
+5. [Exception Handling](exception-handling.md) ✅
+6. [Design Patterns](design-patterns.md) ✅
+7. [Spring Framework](spring-framework.md) ✅
+8. [Spring Boot](spring-boot.md) ✅
+9. [JPA (Java Persistence API)](jpa.md) ✅
+10. [Hibernate](hibernate.md) ✅
+11. [Microservices](microservices.md) ✅
 
 ---
 
@@ -2526,6 +2531,118 @@
 - Basic: Foundation concepts, syntax, basic operations
 - Intermediate: Performance, use cases, comparisons, implementation details
 - Advanced: Internal implementations, algorithms, design decisions, optimization
+
+[↑ Back to Table of Contents](#table-of-contents)
+
+---
+
+## Additional Topics
+
+The following comprehensive question sets are available as separate documents for focused study:
+
+### Java 8+ Features (100 Questions)
+**[→ View Java 8+ Features Questions](java8-features.md)**
+
+Topics covered:
+- Lambda Expressions (7 questions)
+- Functional Interfaces (11 questions)
+- Stream API (20 questions)
+- Optional (10 questions)
+- Default and Static Methods (6 questions)
+- Method References (6 questions)
+- Date Time API (9 questions)
+- Java 9+ Features (31 questions covering Java 9-21)
+
+### Exception Handling (70 Questions)
+**[→ View Exception Handling Questions](exception-handling.md)**
+
+Topics covered:
+- Basic Concepts (10 questions)
+- Exception Hierarchy (10 questions)
+- Try-Catch-Finally (14 questions)
+- Checked vs Unchecked Exceptions (10 questions)
+- Custom Exceptions (6 questions)
+- Best Practices (20 questions)
+
+### Design Patterns (100 Questions)
+**[→ View Design Patterns Questions](design-patterns.md)**
+
+Topics covered:
+- Design Patterns Fundamentals (8 questions)
+- Creational Patterns (44 questions)
+  - Singleton, Factory, Builder, Prototype
+- Structural Patterns (24 questions)
+  - Adapter, Decorator, Proxy, Facade, Bridge, Composite, Flyweight
+- Behavioral Patterns (38 questions)
+  - Strategy, Observer, Command, Template Method, Iterator, State, Chain of Responsibility, Mediator, Memento, Visitor
+- Advanced Topics (10 questions)
+
+### Spring Framework (100 Questions)
+**[→ View Spring Framework Questions](spring-framework.md)**
+
+Topics covered:
+- Spring Core (10 questions)
+- Dependency Injection & IoC (15 questions)
+- Spring Beans (15 questions)
+- Spring AOP (10 questions)
+- Spring MVC (20 questions)
+- Spring Data & JDBC (10 questions)
+- Spring Security (10 questions)
+- Spring Testing (10 questions)
+
+### Spring Boot (100 Questions)
+**[→ View Spring Boot Questions](spring-boot.md)**
+
+Topics covered:
+- Spring Boot Basics (12 questions)
+- Auto-Configuration (10 questions)
+- Spring Boot Annotations (12 questions)
+- Spring Boot Starters (8 questions)
+- Configuration & Properties (12 questions)
+- Spring Boot Actuator (12 questions)
+- REST APIs (14 questions)
+- Error Handling & Validation (20 questions)
+
+### JPA - Java Persistence API (100 Questions)
+**[→ View JPA Questions](jpa.md)**
+
+Topics covered:
+- JPA Basics (12 questions)
+- Entity Management (15 questions)
+- Entity Relationships (17 questions)
+- JPQL & Queries (16 questions)
+- Entity Lifecycle (15 questions)
+- Performance & Optimization (25 questions)
+
+### Hibernate (120 Questions)
+**[→ View Hibernate Questions](hibernate.md)**
+
+Topics covered:
+- Hibernate Basics (12 questions)
+- Hibernate Configuration (10 questions)
+- Session & SessionFactory (16 questions)
+- Hibernate Mapping (16 questions)
+- HQL & Criteria (16 questions)
+- Caching (15 questions)
+- Performance Tuning (15 questions)
+- Advanced Topics (20 questions)
+
+### Microservices (120 Questions)
+**[→ View Microservices Questions](microservices.md)**
+
+Topics covered:
+- Microservices Fundamentals (10 questions)
+- Design Patterns (10 questions)
+- Communication (16 questions)
+- Service Discovery & Load Balancing (11 questions)
+- API Gateway (10 questions)
+- Configuration Management (10 questions)
+- Resilience & Fault Tolerance (13 questions)
+- Security (12 questions)
+- Monitoring & Observability (13 questions)
+- Deployment & DevOps (15 questions)
+
+[↑ Back to Table of Contents](#table-of-contents)
 
 ---
 
