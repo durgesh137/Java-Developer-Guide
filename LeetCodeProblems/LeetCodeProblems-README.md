@@ -273,3 +273,6 @@ When solving a problem:
 **Status**: Ready for problem solving  
 **Target**: Solve all 94 LeetCode sorting problems systematically
 
+
+## Topic wise
+- [LeetCode TopicWise - ProblemSet - README](src/problemset/greedy/medium/Topic-wise-problemset.md)
