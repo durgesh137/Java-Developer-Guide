@@ -78,7 +78,7 @@ JavaCore/
 ## 📊 Implementation Roadmap
 
 ### Phase 1: OOP Fundamentals (In Progress)
-- See the OOP overview: [OOP (Object-Oriented Programming)](./src/oop/OOP_Readme.md)
+- See the OOP overview: [OOP (Object-Oriented Programming)](src/com/javacore/oop/OOP_Readme.md)
 
 | Topic | Status | Subtopics | Examples |
 |-------|--------|-----------|----------|
