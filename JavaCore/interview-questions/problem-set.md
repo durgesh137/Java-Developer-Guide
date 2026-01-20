@@ -2659,10 +2659,10 @@ Topics covered:
 8. Test your multithreaded code thoroughly
 
 **Related Resources:**
-- [Encapsulation Examples](../src/com/javacore/oop/encapsulation/)
-- [Inheritance Examples](../src/com/javacore/oop/inheritance/)
-- [Polymorphism Examples](../src/com/javacore/oop/polymorphism/)
-- [Abstraction Examples](../src/com/javacore/oop/abstraction/)
+- [Encapsulation Examples](../src/main/java/com/javacore/apis/concepts/oops/encapsulation/)
+- [Inheritance Examples](../src/main/java/com/javacore/apis/concepts/oops/inheritance/)
+- [Polymorphism Examples](../src/main/java/com/javacore/apis/concepts/oops/polymorphism/)
+- [Abstraction Examples](../src/main/java/com/javacore/apis/concepts/oops/abstraction/)
 - [Collections Examples](../src/com/javacore/collections/)
 - [Multithreading Examples](../src/com/javacore/multithreading/)
 
